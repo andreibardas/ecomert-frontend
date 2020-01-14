@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Bardas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ecomert.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homepage.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homepage.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/alcool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/apa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/cafea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/dulciuri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/snacks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/suc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/tutun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.component.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/components/homepage.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +53,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bardas\AppData\Roaming\npm\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\components" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1578937912293</updated>
       <workItem from="1578937913604" duration="934000" />
-      <workItem from="1578939018442" duration="4563000" />
+      <workItem from="1578939018442" duration="5864000" />
+      <workItem from="1578983306101" duration="14154000" />
     </task>
     <servers />
   </component>
@@ -87,9 +104,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="550" y="27" key="#ESLint" timestamp="1578998099174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1578998099174" />
+    <state x="635" y="147" key="EditFileWatcherDialog" timestamp="1578991035232">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="635" y="147" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1578991035232" />
     <state x="300" y="15" key="SettingsEditor" timestamp="1578943574673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578943574673" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578994181923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578994181923" />
   </component>
 </project>
