@@ -59,14 +59,15 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/dulciuri" component={Dulciuri} />
-        <Route path="/snacks" component={Snacks} />
-        <Route path="/cafea" component={Cafea} />
-        <Route path="/bere" component={Bere} />
-        <Route path="/alcool" component={Alcool} />
-        <Route path="/tutun" component={Tutun} />
-        <Route path="/apa" component={Apa} />
-        <Route path="/suc" component={Suc} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage}/>
+        <Route path={process.env.PUBLIC_URL + '/dulciuri'} component={Dulciuri} />
+        <Route path={process.env.PUBLIC_URL + '/snacks'} component={Snacks} />
+        <Route path={process.env.PUBLIC_URL + '/cafea'} component={Cafea} />
+        <Route path={process.env.PUBLIC_URL + '/bere'} component={Bere} />
+        <Route path={process.env.PUBLIC_URL + '/alcool'} component={Alcool} />
+        <Route path={process.env.PUBLIC_URL + '/tutun'} component={Tutun} />
+        <Route path={process.env.PUBLIC_URL + '/apa'} component={Apa} />
+        <Route path={process.env.PUBLIC_URL + '/suc'} component={Suc} />
       </Switch>
 
     </div>
