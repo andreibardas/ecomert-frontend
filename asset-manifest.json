@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/ecomert/static/css/main.d5a05009.chunk.css",
-    "main.js": "/ecomert/static/js/main.48a1e7ac.chunk.js",
-    "main.js.map": "/ecomert/static/js/main.48a1e7ac.chunk.js.map",
+    "main.css": "/ecomert/static/css/main.65905648.chunk.css",
+    "main.js": "/ecomert/static/js/main.8b0091a6.chunk.js",
+    "main.js.map": "/ecomert/static/js/main.8b0091a6.chunk.js.map",
     "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
     "runtime-main.js.map": "/ecomert/static/js/runtime-main.e23c8ca9.js.map",
     "static/js/2.69f449cc.chunk.js": "/ecomert/static/js/2.69f449cc.chunk.js",
     "static/js/2.69f449cc.chunk.js.map": "/ecomert/static/js/2.69f449cc.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.fd7d29af1d7ce69b5a9a19ba8118b97a.js": "/ecomert/precache-manifest.fd7d29af1d7ce69b5a9a19ba8118b97a.js",
+    "precache-manifest.f1f0cbfd0bca95040e98763e5a238505.js": "/ecomert/precache-manifest.f1f0cbfd0bca95040e98763e5a238505.js",
     "service-worker.js": "/ecomert/service-worker.js",
-    "static/css/main.d5a05009.chunk.css.map": "/ecomert/static/css/main.d5a05009.chunk.css.map",
+    "static/css/main.65905648.chunk.css.map": "/ecomert/static/css/main.65905648.chunk.css.map",
     "static/js/2.69f449cc.chunk.js.LICENSE": "/ecomert/static/js/2.69f449cc.chunk.js.LICENSE",
-    "static/media/alcool.jpg": "/ecomert/static/media/alcool.5a848c29.jpg",
-    "static/media/apa.jpg": "/ecomert/static/media/apa.eb5a225c.jpg",
-    "static/media/bere.jpg": "/ecomert/static/media/bere.02607d01.jpg",
-    "static/media/cafea.jpg": "/ecomert/static/media/cafea.e28a7906.jpg",
-    "static/media/dulciuri.jpg": "/ecomert/static/media/dulciuri.5ec340f2.jpg",
-    "static/media/snacks.jpg": "/ecomert/static/media/snacks.4391e867.jpg",
-    "static/media/suc.jpg": "/ecomert/static/media/suc.023c724a.jpg",
-    "static/media/tutun.jpg": "/ecomert/static/media/tutun.ac342ee6.jpg"
+    "static/media/alcool.jpg": "/ecomert/static/media/alcool.46526b84.jpg",
+    "static/media/apa.jpg": "/ecomert/static/media/apa.ed15dbcb.jpg",
+    "static/media/bere.jpg": "/ecomert/static/media/bere.d7722efa.jpg",
+    "static/media/cafea.jpg": "/ecomert/static/media/cafea.c5102664.jpg",
+    "static/media/dulciuri.jpg": "/ecomert/static/media/dulciuri.d487561f.jpg",
+    "static/media/snacks.jpg": "/ecomert/static/media/snacks.5e2fb27e.jpg",
+    "static/media/suc.jpg": "/ecomert/static/media/suc.26099441.jpg",
+    "static/media/tutun.jpg": "/ecomert/static/media/tutun.0c64ef06.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e23c8ca9.js",
     "static/js/2.69f449cc.chunk.js",
-    "static/css/main.d5a05009.chunk.css",
-    "static/js/main.48a1e7ac.chunk.js"
+    "static/css/main.65905648.chunk.css",
+    "static/js/main.8b0091a6.chunk.js"
   ]
 }
