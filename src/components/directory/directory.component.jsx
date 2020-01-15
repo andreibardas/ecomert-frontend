@@ -20,42 +20,50 @@ class Directory extends React.Component{
                 {
                     title: "Dulciuri",
                     id: 1,
-                    image: Dulciuri
+                    image: Dulciuri,
+                    linkUrl: "dulciuri"
                 },
                 {
                     title: "Aperitive Sarate",
                     id: 2,
-                    image: Snacks
+                    image: Snacks,
+                    linkUrl: "snacks"
                 },
                 {
                     title: "Cafea si Ceai",
                     id: 3,
-                    image: Cafea
+                    image: Cafea,
+                    linkUrl: "cafea"
                 },
                 {
                     title: "Bere si Cidru",
                     id: 4,
-                    image: Bere
+                    image: Bere,
+                    linkUrl: "bere"
                 },
                 {
                     title: "Bauturi Alcoolice",
                     id: 5,
-                    image: Alcool
+                    image: Alcool,
+                    linkUrl: "alcool"
                 },
                 {
                     title: "Tutun",
                     id: 6,
-                    image: Tutun
+                    image: Tutun,
+                    linkUrl: "tutun"
                 },
                 {
                     title: "Apa",
                     id: 7,
-                    image: Apa
+                    image: Apa,
+                    linkUrl: "apa"
                 },
                 {
                     title: "Sucuri",
                     id: 8,
-                    image: Suc
+                    image: Suc,
+                    linkUrl: "suc"
                 }
                 ]
         }
@@ -64,8 +72,8 @@ class Directory extends React.Component{
     render(){
         return(
             <div className="directory-menu">{
-                this.state.sections.map(({ title, id, image }) => (
-                    <MenuItem key={id} title={title} image={image} />
+                this.state.sections.map(({ title, id, image, linkUrl }) => (
+                    <MenuItem key={id} title={title} image={image} linkUrl={linkUrl}/>
                 ))
             }
 
