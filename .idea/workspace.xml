@@ -3,8 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/alcool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/alcool.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/apa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/apa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/bere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/bere.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/cafea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/cafea.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/dulciuri.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/dulciuri.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/snacks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/snacks.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/suc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/suc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/tutun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/tutun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/components/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/components/homepage.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,6 +57,9 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\components" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
@@ -75,7 +89,8 @@
       <updated>1578937912293</updated>
       <workItem from="1578937913604" duration="934000" />
       <workItem from="1578939018442" duration="5864000" />
-      <workItem from="1578983306101" duration="15053000" />
+      <workItem from="1578983306101" duration="15984000" />
+      <workItem from="1579024511572" duration="15929000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,24 @@
 .menu-item {
-  min-width: 30%;
-  height: 240px;
-  flex: 1 1 auto;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0.5vw;
   justify-content: center;
+  align-items: center;
+  position: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
   overflow: hidden;
+
+
+
+  & .background-image{
+      background-position: center;
+      background-size: cover;
+      width: 500px;
+      height: 300px;
+
+  }
 
   &:hover {
     cursor: pointer;
@@ -18,49 +29,88 @@
     }
 
     & .content {
-      opacity: 0.9;
+      opacity: 0.7;
     }
   }
 
 
-  &:first-child {
-    margin-right: 7.5px;
-  }
 
-  &:last-child {
-    margin-left: 7.5px;
-  }
 
-  .background-image{
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .content {
-    height: 100px;
-    padding: 0 15px;
+  & .content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
+    height: 20vh;
+    width: 30vw;
     background-color: white;
-    opacity: 0.8;
+    align-items: center;
     position: absolute;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    border: 1px solid black;
 
 
-    .title {
+
+   & .title {
       font-weight: bold;
-      margin-bottom: 6px;
-      font-size: 20px;
+      padding-top: 8vh;
+      font-size: 18px;
+      color: black;
+
+
+
+      }
+   & .subtitle {
+      font-weight: lighter;
+      font-size: 14px;
+      padding-bottom: 8vh;
       color: #4a4a4a;
     }
 
-    .subtitle {
-      font-weight: lighter;
-      font-size: 16px;
+
+
+    }
+
+  @media screen and (max-width: 800px){
+    .content{
+      width: 80vw;
     }
   }
+
+
+
+  }
+
+@media screen and (max-width: 800px) {
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      transform: none;
+
+      & .background-image {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none;
+      }
+
+      & .content {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none;
+      }
+    }
+
+  }
+  
 }
