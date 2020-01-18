@@ -1,6 +1,7 @@
 import React from 'react';
 import {Switch, Route} from "react-router-dom";
 
+
 import './App.css';
 
 import HomePage from "./pages/homepage/homepage.component";
@@ -15,7 +16,6 @@ function App() {
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
         <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
-          <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
     </div>
   );
