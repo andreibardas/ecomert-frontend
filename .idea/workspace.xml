@@ -2,8 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool1_jack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool2_jagermeister.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool3_absolut.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool4_beciuldomnesc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool5_alexandrion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool6_jidveidrymuscat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Alcool/alcool7_jidveiclasic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Apa/apa1_borsecplat05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Apa/apa2_borsecmineral05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Apa/apa3_aquaplat05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Apa/apa4_aquamineral05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Apa/apa5_dornaplat05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere1_corona.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere2_desperados.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere3_efes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere4_strongbowrosusticla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere5_peronidoza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Bere/bere6_stelladoza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Cafea/cafea1_illy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Cafea/cafea2_pellinitop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Cafea/cafea3_lavazzadoro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri1_raffaello.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri2_7days.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri3_mini7days.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri4_nutellabready.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri5_kindersurprise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri6_kinderbueno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Dulciuri/dulciuri7_kinderdelice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks1_fistic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks2_alune.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks3_porumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks4_pringles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks5_tuc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks6_bakerollssare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks7_laysbakedsare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Snacks/snacks8_laysmaxsare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc1_cola05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc2_fuseteapiersici05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc3_fuseteafructe05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc4_schweppestonic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc5_schweppesbitter05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc6_cappylemonadelamaie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc7_monsterverde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc8_coladoza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Suc/suc9_redbull.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun1_neostickalbastru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun2_dunhillalbastru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun3_marlbororosu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun4_davidoffrosu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun5_heetsbronz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun5_parliamentalbastru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Tutun/tutun6_heetsportocaliu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shoppingLogo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/components/homepage.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/components/homepage.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +115,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bardas\Desktop\ecomert\public" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\assets" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\components" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\shop" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-item" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-preview" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -81,7 +152,11 @@
       <workItem from="1578939018442" duration="5864000" />
       <workItem from="1578983306101" duration="15984000" />
       <workItem from="1579024511572" duration="17504000" />
-      <workItem from="1579088834913" duration="6400000" />
+      <workItem from="1579088834913" duration="6622000" />
+      <workItem from="1579108548701" duration="752000" />
+      <workItem from="1579174624045" duration="860000" />
+      <workItem from="1579178209660" duration="23227000" />
+      <workItem from="1579291648655" duration="4896000" />
     </task>
     <servers />
   </component>
@@ -104,6 +179,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578943574673" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1579312125557">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579312125557" />
     <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578994181923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

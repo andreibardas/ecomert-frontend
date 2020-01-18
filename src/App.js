@@ -3,81 +3,18 @@ import {Switch, Route} from "react-router-dom";
 
 import './App.css';
 
-import HomePage from "../src/pages/components/homepage.component";
-
-const Dulciuri = () =>(
-  <div>
-    <h1>DULCIURI</h1>
-      <h2>Pagina in lucru</h2>
-  </div>
-);
-const Snacks = () =>(
-    <div>
-        <h1>APERITIVE SARATE</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Cafea = () =>(
-    <div>
-        <h1>CAFEA SI CEAI</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Bere = () =>(
-    <div>
-        <h1>BERE SI CIDRU</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Alcool = () =>(
-    <div>
-        <h1>BAUTURI ALCOOLICE</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Tutun = () =>(
-    <div>
-        <h1>TUTUN</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Apa = () =>(
-    <div>
-        <h1>APA</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
-const Suc = () =>(
-    <div>
-        <h1>SUCURI</h1>
-        <h2>Pagina in lucru</h2>
-    </div>
-);
+import HomePage from "./pages/homepage/homepage.component";
+import ShopPage from "./pages/shop/shop.component";
+import Header from "./components/header/header.component";
 
 function App() {
   return (
     <div>
+      <Header/>
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage}/>
-        <Route exact path="/dulciuri" component={Dulciuri} />
-        <Route exact path={process.env.PUBLIC_URL + '/dulciuri'} component={Dulciuri} />
-        <Route exact path="/snacks" component={Snacks} />
-        <Route exact path={process.env.PUBLIC_URL + '/snacks'} component={Snacks} />
-        <Route exact path="/cafea" component={Cafea} />
-        <Route exact path={process.env.PUBLIC_URL + '/cafea'} component={Cafea} />
-        <Route exact path="/bere" component={Bere} />
-        <Route exact path={process.env.PUBLIC_URL + '/bere'} component={Bere} />
-        <Route exact path="/alcool" component={Alcool} />
-        <Route exact path={process.env.PUBLIC_URL + '/alcool'} component={Alcool} />
-        <Route exact path="/tutun" component={Tutun} />
-        <Route exact path={process.env.PUBLIC_URL + '/tutun'} component={Tutun} />
-        <Route exact path="/apa" component={Apa} />
-        <Route exact path={process.env.PUBLIC_URL + '/apa'} component={Apa} />
-        <Route exact path="/suc" component={Suc} />
-        <Route exact path={process.env.PUBLIC_URL + '/suc'} component={Suc} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
+        <Route path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
-
     </div>
   );
 }
