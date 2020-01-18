@@ -1,7 +1,6 @@
 import React from "react";
 
 import SHOP_DATA from "./shop.data";
-import Dulciuri1 from "../../Images/Dulciuri/dulciuri1_raffaello.jpg";
 import "../../components/collection-preview/collection-preview.component";
 import CollectionPreview from "../../components/collection-preview/collection-preview.component";
 
