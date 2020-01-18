@@ -4,7 +4,6 @@ import "./header.styles.scss";
 import {ReactComponent as Logo } from "../../assets/shoppingLogo.svg";
 
 const Header = ()=>(
-    <HashRouter basename="/">
     <div className="header">
         <Link className="logo-container" to="/">
             <Logo className="logo"/>
@@ -18,7 +17,7 @@ const Header = ()=>(
             </Link>
         </div>
     </div>
-    </HashRouter>
+
 );
 
 export default Header;
