@@ -4,7 +4,9 @@
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <workItem from="1579291648655" duration="5961000" />
       <workItem from="1579320579121" duration="70000" />
       <workItem from="1579320673430" duration="716000" />
-      <workItem from="1579359565180" duration="12688000" />
+      <workItem from="1579359565180" duration="14776000" />
     </task>
     <servers />
   </component>
@@ -103,10 +105,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="27" key="#ESLint" timestamp="1578998099174">
+    <state x="550" y="27" key="#ESLint" timestamp="1579376247294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1578998099174" />
+    <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1579376247294" />
     <state x="635" y="147" key="EditFileWatcherDialog" timestamp="1578991035232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

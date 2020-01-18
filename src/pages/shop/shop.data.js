@@ -124,7 +124,7 @@ const SHOP_DATA = [
     },
     {
         id: 2,
-        title: 'Aperitive Sarate',
+        title: 'Snacks',
         routeName: 'snacks',
         items: [
             {
@@ -179,7 +179,7 @@ const SHOP_DATA = [
     },
     {
         id: 3,
-        title: 'Cafea Si Ceai',
+        title: 'Cafea',
         routeName: 'cafea',
         items: [
             {
