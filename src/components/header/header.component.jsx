@@ -1,9 +1,10 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link, Route, HashRouter} from "react-router-dom";
 import "./header.styles.scss";
 import {ReactComponent as Logo } from "../../assets/shoppingLogo.svg";
 
 const Header = ()=>(
+    <HashRouter basename="/">
     <div className="header">
         <Link className="logo-container" to="/">
             <Logo className="logo"/>
@@ -17,6 +18,7 @@ const Header = ()=>(
             </Link>
         </div>
     </div>
+    </HashRouter>
 );
 
 export default Header;

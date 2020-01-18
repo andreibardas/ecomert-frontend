@@ -1,5 +1,6 @@
 import React from 'react';
-import {Switch, Route} from "react-router-dom";
+import {Switch, HashRouter, Route} from "react-router-dom";
+
 
 
 import './App.css';
@@ -11,13 +12,15 @@ import Header from "./components/header/header.component";
 
 function App() {
   return (
+      <HashRouter basename="/">
     <div>
       <Header/>
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
-        <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
+        <Route path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
     </div>
+    </HashRouter>
   );
 }
 
