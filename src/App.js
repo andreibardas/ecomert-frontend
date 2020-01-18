@@ -12,7 +12,6 @@ import Header from "./components/header/header.component";
 
 function App() {
   return (
-      <HashRouter basename="/">
     <div>
       <Header/>
       <Switch>
@@ -20,7 +19,6 @@ function App() {
         <Route path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
     </div>
-    </HashRouter>
   );
 }
 
