@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
-        <Route path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
+        <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
     </div>
   );
