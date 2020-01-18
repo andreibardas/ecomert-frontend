@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2e2836a36322134f8b50e3e95f1edf1",
+    "revision": "a0754eed70335b43b44f01cdc2ec3e29",
     "url": "/ecomert/index.html"
   },
   {
-    "revision": "de29da82f3fdd680e7f0",
-    "url": "/ecomert/static/css/main.5cddc63f.chunk.css"
+    "revision": "210f4c84b1ed27705a3a",
+    "url": "/ecomert/static/css/main.edff8f9f.chunk.css"
   },
   {
     "revision": "a3253918c45abbc40106",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/js/2.9147f549.chunk.js.LICENSE"
   },
   {
-    "revision": "de29da82f3fdd680e7f0",
-    "url": "/ecomert/static/js/main.4aab4475.chunk.js"
+    "revision": "210f4c84b1ed27705a3a",
+    "url": "/ecomert/static/js/main.0eb1ce54.chunk.js"
   },
   {
     "revision": "6844bc73d77dd2865d31",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/media/alcool1_jack.fd89eaea.jpg"
   },
   {
-    "revision": "2a380b6ade20a6260e67c34d1e8a3f21",
-    "url": "/ecomert/static/media/alcool2_jagermeister.2a380b6a.jpg"
+    "revision": "7258f5ace13c7009f9341100da08fe8d",
+    "url": "/ecomert/static/media/alcool2_jagermeister.7258f5ac.jpg"
   },
   {
-    "revision": "70856c69860c1988ea787240f9a41c79",
-    "url": "/ecomert/static/media/alcool3_absolut.70856c69.jpg"
+    "revision": "e007fc215561bffbe5f65d84a28354c1",
+    "url": "/ecomert/static/media/alcool3_absolut.e007fc21.jpg"
   },
   {
     "revision": "c4e22e60a8d7588be413b4a0c204ca07",
@@ -112,24 +112,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/media/cafea.c5102664.jpg"
   },
   {
-    "revision": "4b2aa8bb6cbc02f6f28aa3c3d19b375f",
-    "url": "/ecomert/static/media/cafea1_illy.4b2aa8bb.jpg"
+    "revision": "0d296f2b82d38a88b2d2f4dcc9183016",
+    "url": "/ecomert/static/media/cafea1_illy.0d296f2b.jpg"
   },
   {
-    "revision": "075a2de7f126beb0f12865f06830181a",
-    "url": "/ecomert/static/media/cafea2_pellinitop.075a2de7.jpg"
+    "revision": "79645de064c8bc4e43061388898eac24",
+    "url": "/ecomert/static/media/cafea2_pellinitop.79645de0.jpg"
   },
   {
-    "revision": "fd8fcc4050e51aaf31b4eed947702d57",
-    "url": "/ecomert/static/media/cafea3_lavazzadoro.fd8fcc40.jpg"
+    "revision": "c47389a959295514a65f214915a27df9",
+    "url": "/ecomert/static/media/cafea3_lavazzadoro.c47389a9.jpg"
   },
   {
     "revision": "d487561f10b2ae241c348b4cc9effe0f",
     "url": "/ecomert/static/media/dulciuri.d487561f.jpg"
   },
   {
-    "revision": "747463760f0d3e8fe6c50a7402c29428",
-    "url": "/ecomert/static/media/dulciuri1_raffaello.74746376.jpg"
+    "revision": "70f131a0c55bd77ac743f8b1dcdc9b46",
+    "url": "/ecomert/static/media/dulciuri1_raffaello.70f131a0.jpg"
   },
   {
     "revision": "13a3d37725843974ef55306ed2214b9d",
@@ -168,16 +168,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/media/snacks1_fistic.6f22b939.jpg"
   },
   {
-    "revision": "5385c0c733c48c92e3dbae4a42ebe53a",
-    "url": "/ecomert/static/media/snacks2_alune.5385c0c7.jpg"
+    "revision": "e9f685b20e2863a56b999cc11eaeda74",
+    "url": "/ecomert/static/media/snacks2_alune.e9f685b2.jpg"
   },
   {
     "revision": "3884a39fec51e8b686496b32be55602c",
     "url": "/ecomert/static/media/snacks3_porumb.3884a39f.jpg"
   },
   {
-    "revision": "538b4b482d5c1adff2b69b14a5d3886b",
-    "url": "/ecomert/static/media/snacks4_pringles.538b4b48.jpg"
+    "revision": "0893f3de367464f05a170d6f951da09d",
+    "url": "/ecomert/static/media/snacks4_pringles.0893f3de.jpg"
   },
   {
     "revision": "bba419b7858e53e778991b7e41e36990",
@@ -212,8 +212,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/media/suc3_fuseteafructe05.86d91ff4.jpg"
   },
   {
-    "revision": "86049f50558db84aa2be98686081fd0d",
-    "url": "/ecomert/static/media/suc4_schweppestonic05.86049f50.jpg"
+    "revision": "0825ea71418ed1b189412c71800a9be0",
+    "url": "/ecomert/static/media/suc4_schweppestonic05.0825ea71.jpg"
   },
   {
     "revision": "7c2c5f7af30ad9ce4f3895c4668feb03",
