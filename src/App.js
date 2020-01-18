@@ -15,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={HomePage} />
         <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
+          <Route exact path={process.env.PUBLIC_URL + '/shop'} component={ShopPage}/>
       </Switch>
     </div>
   );

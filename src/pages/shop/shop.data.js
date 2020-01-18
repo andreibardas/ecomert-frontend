@@ -319,37 +319,37 @@ const SHOP_DATA = [
         items: [
             {
                 id: 1,
-                name: '',
+                name: 'Glo NeoStick Albastru',
                 imageUrl: Tutun1,
                 price: 325
             },
             {
                 id: 2,
-                name: '',
+                name: 'Dunhill Albastru',
                 imageUrl: Tutun2,
                 price: 20
             },
             {
                 id: 3,
-                name: '',
+                name: 'Marlboro Rosu Scurt',
                 imageUrl: Tutun3,
                 price: 25
             },
             {
                 id: 4,
-                name: '',
+                name: 'Davidoff Rosu',
                 imageUrl: Tutun4,
                 price: 25
             },
             {
                 id: 5,
-                name: '',
+                name: 'Heets Bronze',
                 imageUrl: Tutun5,
                 price: 40
             },
             {
                 id: 6,
-                name: '',
+                name: 'Heets Portocaliu',
                 imageUrl: Tutun6,
                 price: 25
             }
@@ -362,31 +362,31 @@ const SHOP_DATA = [
         items: [
             {
                 id: 1,
-                name: '',
+                name: 'Borsec Plata 500ml',
                 imageUrl: Apa1,
                 price: 325
             },
             {
                 id: 2,
-                name: '',
+                name: 'Borsec Minerala 500ml',
                 imageUrl: Apa2,
                 price: 20
             },
             {
                 id: 3,
-                name: '',
+                name: 'Aqua Plata 500ml',
                 imageUrl: Apa3,
                 price: 25
             },
             {
                 id: 4,
-                name: '',
+                name: 'Aqua Minerala 500ml',
                 imageUrl: Apa4,
                 price: 25
             },
             {
                 id: 5,
-                name: '',
+                name: 'Dorna Plata 500ml',
                 imageUrl: Apa5,
                 price: 40
             },
@@ -405,55 +405,55 @@ const SHOP_DATA = [
         items: [
             {
                 id: 1,
-                name: '',
+                name: 'Coca-Cola 500ml',
                 imageUrl: Suc1,
                 price: 325
             },
             {
                 id: 2,
-                name: '',
+                name: 'Fuse Tea Piersici 500ml',
                 imageUrl: Suc2,
                 price: 20
             },
             {
                 id: 3,
-                name: '',
+                name: 'FuseTea Fructe de Padure 500ml',
                 imageUrl: Suc3,
                 price: 25
             },
             {
                 id: 4,
-                name: '',
+                name: 'Schweppes Tonic 500ml',
                 imageUrl: Suc4,
                 price: 25
             },
             {
                 id: 5,
-                name: '',
+                name: 'Schweppes BitterLemon 500ml',
                 imageUrl: Suc5,
                 price: 40
             },
             {
                 id: 6,
-                name: '',
+                name: 'Cappy Lemonade Lamaie 300ml',
                 imageUrl: Suc6,
                 price: 25
             },
             {
                 id: 7,
-                name: '',
+                name: 'Monster Verde',
                 imageUrl: Suc7,
                 price: 25
             },
             {
                 id: 8,
-                name: '',
+                name: 'Coca-Cola Doza',
                 imageUrl: Suc8,
                 price: 25
             },
             {
                 id: 9,
-                name: '',
+                name: 'RedBull',
                 imageUrl: Suc9,
                 price: 25
             }
