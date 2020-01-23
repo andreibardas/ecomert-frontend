@@ -1,0 +1,59 @@
+.tab-group{
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .sign-in-and-sign-up {
+
+
+    .tab-group {
+      visibility: visible;
+      padding-top: 130px;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: center;
+      margin-right: 35px;
+      /* &:after {
+         content: "";
+         display: table;
+         clear: both;
+       }*/
+      li a {
+       /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-decoration: none;*/
+        padding: 5px 8px;
+        background: grey;
+        color: white;
+        font-size: 20px;
+        //float: left;
+        width: 50%;
+        //text-align: center;
+        cursor: pointer;
+        transition: .5s ease;
+
+        &:hover {
+          background: black;
+          color: white;
+        }
+      }
+
+      .active a {
+        background: black;
+        color: white;
+      }
+    }
+
+    .tab-content > div:last-child {
+      display: none;
+    }
+
+  }
+
+}

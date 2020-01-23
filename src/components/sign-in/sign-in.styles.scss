@@ -1,0 +1,25 @@
+.sign-in{
+  width: 30vw;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+
+
+  .title{
+    //margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .sign-in{
+    width: 100vw;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title{
+      //margin: 10px 0px;
+    }
+  }
+}

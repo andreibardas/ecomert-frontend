@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input-sign-in/form-input-sign-in.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/form-input-sign-in/form-input-sign-in.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-preview/collection-preview.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.component.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.component.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +59,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bardas\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -94,7 +107,10 @@
       <workItem from="1579291648655" duration="5961000" />
       <workItem from="1579320579121" duration="70000" />
       <workItem from="1579320673430" duration="716000" />
-      <workItem from="1579359565180" duration="14776000" />
+      <workItem from="1579359565180" duration="15403000" />
+      <workItem from="1579548135370" duration="1455000" />
+      <workItem from="1579729779886" duration="930000" />
+      <workItem from="1579785804007" duration="20653000" />
     </task>
     <servers />
   </component>
@@ -109,14 +125,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1579376247294" />
+    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1579805028786">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.728@0.0.1366.728" timestamp="1579805028786" />
     <state x="635" y="147" key="EditFileWatcherDialog" timestamp="1578991035232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="635" y="147" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1578991035232" />
-    <state x="300" y="15" key="SettingsEditor" timestamp="1578943574673">
+    <state x="579" y="127" key="FileChooserDialogImpl" timestamp="1579805027602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578943574673" />
+    <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579805027602" />
+    <state x="300" y="15" key="SettingsEditor" timestamp="1579805829457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579805829457" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1579312125557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
