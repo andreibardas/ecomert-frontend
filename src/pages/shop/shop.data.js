@@ -70,7 +70,7 @@ const SHOP_DATA = [
                 id: 1,
                 name: "Raffaello",
                 imageUrl: Dulciuri1,
-                price: 25
+                price: 54
             },
             {
                 id: 2,
