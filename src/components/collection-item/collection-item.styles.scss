@@ -33,6 +33,10 @@
 @media screen and (max-width: 800px){
   .collection-item{
     display: flex;
+    flex: 0 50%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 130px;
     width: 80px;
     flex-grow: 1;
@@ -40,13 +44,10 @@
     //height: 160px;
 
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+
     margin-bottom: 90px;
 
     .image {

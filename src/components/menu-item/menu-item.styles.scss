@@ -91,7 +91,7 @@
   .menu-item {
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    width: 90vw;
     justify-content: center;
     align-items: center;
     border: none;
@@ -115,13 +115,38 @@
         -moz-transform: none;
         -ms-transform: none;
         transform: none;
+
+
       }
+
+
     }
 
     @media screen and (max-width: 800px){
       .content{
-        width: 50vw;
+        width: 80vw;
+        height: 20vh;
+
+        & .title {
+          font-weight: bold;
+          padding-top: 8vh;
+          font-size: 20px;
+          color: black;
+          opacity: 1;
+
+
+
+        }
+        & .subtitle {
+          font-weight: lighter;
+          font-size: 18px;
+          padding-bottom: 8vh;
+          color: #4a4a4a;
+          opacity: 1;
+        }
       }
+
+
     }
 
   }
