@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecomert/static/css/main.f7166514.chunk.css",
-    "main.js": "/ecomert/static/js/main.a7c32809.chunk.js",
-    "main.js.map": "/ecomert/static/js/main.a7c32809.chunk.js.map",
+    "main.css": "/ecomert/static/css/main.df451a54.chunk.css",
+    "main.js": "/ecomert/static/js/main.75e5bd5d.chunk.js",
+    "main.js.map": "/ecomert/static/js/main.75e5bd5d.chunk.js.map",
     "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
     "runtime-main.js.map": "/ecomert/static/js/runtime-main.e23c8ca9.js.map",
     "static/js/2.d6213acd.chunk.js": "/ecomert/static/js/2.d6213acd.chunk.js",
     "static/js/2.d6213acd.chunk.js.map": "/ecomert/static/js/2.d6213acd.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.090aa80e13176ba6fd8d79d35581f4e9.js": "/ecomert/precache-manifest.090aa80e13176ba6fd8d79d35581f4e9.js",
+    "precache-manifest.90caa99630a7a0bfc3d518d5d42581f0.js": "/ecomert/precache-manifest.90caa99630a7a0bfc3d518d5d42581f0.js",
     "service-worker.js": "/ecomert/service-worker.js",
-    "static/css/main.f7166514.chunk.css.map": "/ecomert/static/css/main.f7166514.chunk.css.map",
+    "static/css/main.df451a54.chunk.css.map": "/ecomert/static/css/main.df451a54.chunk.css.map",
     "static/js/2.d6213acd.chunk.js.LICENSE": "/ecomert/static/js/2.d6213acd.chunk.js.LICENSE",
     "static/media/alcool.jpg": "/ecomert/static/media/alcool.46526b84.jpg",
     "static/media/alcool1_jack.jpg": "/ecomert/static/media/alcool1_jack.fd89eaea.jpg",
@@ -76,7 +76,7 @@
   "entrypoints": [
     "static/js/runtime-main.e23c8ca9.js",
     "static/js/2.d6213acd.chunk.js",
-    "static/css/main.f7166514.chunk.css",
-    "static/js/main.a7c32809.chunk.js"
+    "static/css/main.df451a54.chunk.css",
+    "static/js/main.75e5bd5d.chunk.js"
   ]
 }
