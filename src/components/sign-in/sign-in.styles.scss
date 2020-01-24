@@ -1,6 +1,7 @@
 .sign-in{
   width: 30vw;
-  padding-top: 90px;
+  padding-top: 10px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
 
@@ -12,11 +13,12 @@
 
 @media screen and (max-width: 800px){
   .sign-in{
-    width: 100vw;
-    padding-top: 90px;
+    width: 85vw;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     .title{
       //margin: 10px 0px;
