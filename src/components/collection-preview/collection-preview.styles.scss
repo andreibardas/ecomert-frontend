@@ -17,10 +17,10 @@
 }
 @media screen and (max-width: 800px){
   .collection-preview{
-    
+
     display: flex;
     padding-top: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -41,6 +41,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin-bottom: -100px;
 
 
 

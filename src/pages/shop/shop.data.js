@@ -204,7 +204,7 @@ const SHOP_DATA = [
                 id: 4,
                 name: '',
                 imageUrl: "",
-                price: 165
+                price: null
             },
             {
                 id: 5,
