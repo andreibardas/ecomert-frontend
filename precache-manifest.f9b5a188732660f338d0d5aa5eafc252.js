@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b468fed1a35cae5dea133630373a3f51",
+    "revision": "745d91a9f64e78b7185dbd0f86bd6ae2",
     "url": "/ecomert/index.html"
   },
   {
-    "revision": "baf887d899ce6f818409",
-    "url": "/ecomert/static/css/main.7db7101d.chunk.css"
+    "revision": "dd8493000aa11bec376e",
+    "url": "/ecomert/static/css/main.c8a98f13.chunk.css"
   },
   {
     "revision": "7d40763e59b7b6fcb72a",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/js/2.ca13cb67.chunk.js.LICENSE"
   },
   {
-    "revision": "baf887d899ce6f818409",
-    "url": "/ecomert/static/js/main.37c08033.chunk.js"
+    "revision": "dd8493000aa11bec376e",
+    "url": "/ecomert/static/js/main.6090736c.chunk.js"
   },
   {
     "revision": "6844bc73d77dd2865d31",
