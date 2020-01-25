@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/firebase/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,8 @@
       <workItem from="1579729779886" duration="930000" />
       <workItem from="1579785804007" duration="20845000" />
       <workItem from="1579886667584" duration="22907000" />
-      <workItem from="1579953031354" duration="778000" />
+      <workItem from="1579953031354" duration="4092000" />
+      <workItem from="1579965001919" duration="9291000" />
     </task>
     <servers />
   </component>
@@ -107,33 +110,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="27" key="#ESLint" timestamp="1579376247294">
+    <state x="550" y="27" key="#ESLint" timestamp="1579964228225">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="550" y="27" key="#ESLint/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579964228225" />
     <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1579376247294" />
-    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1579805028786">
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579965060019">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965060019" />
+    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1579965180445">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965180445" />
     <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.728@0.0.1366.728" timestamp="1579805028786" />
     <state x="635" y="147" key="EditFileWatcherDialog" timestamp="1578991035232">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="635" y="147" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1578991035232" />
-    <state x="579" y="127" key="FileChooserDialogImpl" timestamp="1579805027602">
+    <state x="579" y="127" key="FileChooserDialogImpl" timestamp="1579965179985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965179985" />
     <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579805027602" />
-    <state x="300" y="15" key="SettingsEditor" timestamp="1579805829457">
+    <state x="125" y="0" key="SettingsEditor" timestamp="1579965213632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="125" y="0" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965213632" />
     <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579805829457" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1579312125557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579312125557" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579366787027">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579971997199">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579971997199" />
     <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579366787027" />
   </component>
 </project>
