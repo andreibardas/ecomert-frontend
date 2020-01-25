@@ -5,6 +5,7 @@ import FormInputSignIn from "../form-input-sign-in/form-input-sign-in.component"
 import "./sign-in.styles.scss";
 import CustomButton from "../custom-button/custom-button.component";
 import {signInWithGoogle} from "../../firebase/firebase.utils";
+import {Link} from "react-router-dom";
 
 class SignIn extends React.Component{
 
@@ -43,8 +44,10 @@ class SignIn extends React.Component{
                         <CustomButton type="submit">Intra in cont</CustomButton>
                         <div className="spacing">
                         </div>
+                        <Link className="option" to="/">
                         <CustomButton type="button" onClick={signInWithGoogle} >{" "}Intra in cont cu <span style={{fontSize: "22px"}}><span style={{color: "#4285F4"}}>G</span><span style={{color: "#DB4437"}}>o</span><span style={{color: "#F4B400"}}>o</span><span style={{color: "#4285F4"}}>g</span><span style={{color: "#0F9D58"}}>l</span><span style={{color: "#DB4437"}}>e</span></span>{" "}</CustomButton>
-                    </div>
+                        </Link>
+                        </div>
                     </form>
             </div>
         )
