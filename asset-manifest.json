@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecomert/static/css/main.c8a98f13.chunk.css",
+    "main.css": "/ecomert/static/css/main.4c72541b.chunk.css",
     "main.js": "/ecomert/static/js/main.6090736c.chunk.js",
     "main.js.map": "/ecomert/static/js/main.6090736c.chunk.js.map",
     "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
@@ -8,9 +8,9 @@
     "static/js/2.ca13cb67.chunk.js": "/ecomert/static/js/2.ca13cb67.chunk.js",
     "static/js/2.ca13cb67.chunk.js.map": "/ecomert/static/js/2.ca13cb67.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.f9b5a188732660f338d0d5aa5eafc252.js": "/ecomert/precache-manifest.f9b5a188732660f338d0d5aa5eafc252.js",
+    "precache-manifest.456ea18fdc4d16dfff6a38abad27952b.js": "/ecomert/precache-manifest.456ea18fdc4d16dfff6a38abad27952b.js",
     "service-worker.js": "/ecomert/service-worker.js",
-    "static/css/main.c8a98f13.chunk.css.map": "/ecomert/static/css/main.c8a98f13.chunk.css.map",
+    "static/css/main.4c72541b.chunk.css.map": "/ecomert/static/css/main.4c72541b.chunk.css.map",
     "static/js/2.ca13cb67.chunk.js.LICENSE": "/ecomert/static/js/2.ca13cb67.chunk.js.LICENSE",
     "static/media/alcool.jpg": "/ecomert/static/media/alcool.46526b84.jpg",
     "static/media/alcool1_jack.jpg": "/ecomert/static/media/alcool1_jack.fd89eaea.jpg",
@@ -76,7 +76,7 @@
   "entrypoints": [
     "static/js/runtime-main.e23c8ca9.js",
     "static/js/2.ca13cb67.chunk.js",
-    "static/css/main.c8a98f13.chunk.css",
+    "static/css/main.4c72541b.chunk.css",
     "static/js/main.6090736c.chunk.js"
   ]
 }
