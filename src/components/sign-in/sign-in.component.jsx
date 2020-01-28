@@ -4,7 +4,7 @@ import FormInputSignIn from "../form-input-sign-in/form-input-sign-in.component"
 
 import "./sign-in.styles.scss";
 import CustomButton from "../custom-button/custom-button.component";
-import {signInWithGoogle} from "../../firebase/firebase.utils";
+import {auth, signInWithGoogle} from "../../firebase/firebase.utils";
 import {Link} from "react-router-dom";
 
 class SignIn extends React.Component{
@@ -19,8 +19,18 @@ class SignIn extends React.Component{
 
     }
 
-    handleSubmit = event => {
+    handleSubmit = async event => {
         event.preventDefault();
+
+        const {email, password} = this.state;
+
+        try{
+            await auth.signInWithEmailAndPassword(email, password);
+            this.setState({email: "", password:""})
+        }
+        catch (error) {
+            console.log(error);
+        }
 
         this.setState({email: "", password: ""});
     };
@@ -49,6 +59,8 @@ class SignIn extends React.Component{
                         </Link>
                         </div>
                     </form>
+
+                <h4 className="forMobileCreateAccount">Nu ai un cont? Creeaza unul <Link className="toSignUp" to="/signup">aici</Link></h4>
             </div>
         )
     }

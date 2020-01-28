@@ -4,10 +4,6 @@ import "firebase/auth";
 
 
 
-
-
-
-
 const config =
     {
             apiKey: "AIzaSyANa8X4gpHxPP47pq1fbZi9s3BgAdFey9c",

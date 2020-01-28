@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/firebase/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +53,19 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bardas\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-preview" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\sign-in-and-sign-up" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Dulciuri" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Snacks" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Cafea" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Alcool" />
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Suc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-preview" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -99,7 +107,9 @@
       <workItem from="1579785804007" duration="20845000" />
       <workItem from="1579886667584" duration="22907000" />
       <workItem from="1579953031354" duration="4092000" />
-      <workItem from="1579965001919" duration="9291000" />
+      <workItem from="1579965001919" duration="9969000" />
+      <workItem from="1579977445513" duration="961000" />
+      <workItem from="1580216900884" duration="10812000" />
     </task>
     <servers />
   </component>
@@ -110,10 +120,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="27" key="#ESLint" timestamp="1579964228225">
+    <state x="550" y="27" key="#ESLint" timestamp="1580220612587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="550" y="27" key="#ESLint/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579964228225" />
+    <state x="550" y="27" key="#ESLint/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580220612587" />
     <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1579376247294" />
     <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579965060019">
       <screen x="0" y="0" width="1366" height="728" />
@@ -133,9 +143,10 @@
     </state>
     <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965179985" />
     <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579805027602" />
-    <state x="125" y="0" key="SettingsEditor" timestamp="1579965213632">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1684" y="-521" key="SettingsEditor" timestamp="1579977225979">
+      <screen x="-1920" y="-581" width="1920" height="1040" />
     </state>
+    <state x="-1684" y="-521" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@-1920.-581.1920.1040" timestamp="1579977225979" />
     <state x="125" y="0" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965213632" />
     <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579805829457" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1579312125557">
