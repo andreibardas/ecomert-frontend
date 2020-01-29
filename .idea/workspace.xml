@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-button/custom-button.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input-sign-in/form-input-sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form-input-sign-in/form-input-sign-in.styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-and-sign-up/sign-in-and-sign-up.styles.scss" afterDir="false" />
     </list>
@@ -109,7 +106,8 @@
       <workItem from="1579953031354" duration="4092000" />
       <workItem from="1579965001919" duration="9969000" />
       <workItem from="1579977445513" duration="961000" />
-      <workItem from="1580216900884" duration="10812000" />
+      <workItem from="1580216900884" duration="11411000" />
+      <workItem from="1580279183512" duration="8370000" />
     </task>
     <servers />
   </component>
@@ -153,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579312125557" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579971997199">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580288338377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579971997199" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580288338377" />
     <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579366787027" />
   </component>
 </project>

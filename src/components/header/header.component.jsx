@@ -11,17 +11,17 @@ const Header = ({currentUser})=>(
         </Link>
         <div className="options">
             <Link className="option" to="/shop">
-                SHOP
+                <i className="fas fa-shopping-basket fa-2x"></i>
             </Link>
-            <Link className="option" to="/shop">
+            {/*<Link className="option" to="/shop">
                 CONTACT
-            </Link>
+            </Link>*/}
             {
                 currentUser ?
                     (
-                    <div className="option" onClick={()=>auth.signOut()}>IESI <i className="far fa-user"></i></div>
+                    <div className="option" onClick={()=>auth.signOut()}><i className="fas fa-sign-out-alt fa-2x"></i></div>
                     ):(
-                    <Link className="option" to="/signin">INTRA <i className="far fa-user"></i></Link>
+                    <Link className="option" to="/signin"><i className="far fa-user fa-2x"></i></Link>
                         )
             }
 

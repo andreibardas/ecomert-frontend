@@ -60,7 +60,7 @@ class SignIn extends React.Component{
                         </div>
                     </form>
 
-                <h4 className="forMobileCreateAccount">Nu ai un cont? Creeaza unul <Link className="toSignUp" to="/signup">aici</Link></h4>
+                <h4 className="forMobileCreateAccount">Nu ai un cont? Creeaza unul <Link className="toSignUp" to="/signup">aici</Link>.</h4>
             </div>
         )
     }

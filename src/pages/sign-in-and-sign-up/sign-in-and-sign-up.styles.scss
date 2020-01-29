@@ -1,5 +1,33 @@
 .sign-in-and-sign-up {
-  width: 850px;
+  padding-top: 3vh;
+  padding-left: 10vw;
+  width: 80vw;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+
+
+  /*.spacingSigns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30vw;
+  }*/
+}
+
+@media screen and (max-width: 800px){
+  .sign-in-and-sign-up {
+    max-height: 100vh;
+    overflow-y: hidden;
+    padding-left: 0vw;
+    justify-content: center;
+
+
+    .setVisibile {
+      visibility: hidden;
+
+
+    }
+  }
 }

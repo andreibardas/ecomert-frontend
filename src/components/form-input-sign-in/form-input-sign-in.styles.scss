@@ -10,19 +10,25 @@ $main-color: black;
 .group {
   position: relative;
   margin: 45px 0;
+  padding-top: 3px;
 
   .form-input {
     background: none;
     background-color: white;
     color: $sub-color;
     font-size: 18px;
-    padding: 10px 10px 10px 5px;
+    padding: 3px 1px 5px 5px;
     display: block;
     width: 100%;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid $sub-color;
     margin: 25px 0;
+
+    .form-input:valid{
+      background: white;
+
+    }
 
     &:focus {
       outline: none;
@@ -47,16 +53,16 @@ $main-color: black;
     top: 10px;
     transition: 300ms ease all;
 
-    &.shrink {
+    /*&.shrink {
       @include shrinkLabel();
-    }
+    }*/
   }
 }
 
 @media screen and (max-width: 800px){
   .group {
     position: relative;
-    margin: 45px 0;
+    margin: 25px 0;
 
     .form-input {
       background: none;
@@ -86,7 +92,7 @@ $main-color: black;
 
     .form-input-label {
       color: $sub-color;
-      font-size: 16px;
+      font-size: 12px;
       font-weight: normal;
       position: absolute;
       pointer-events: none;

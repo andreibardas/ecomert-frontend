@@ -35,12 +35,13 @@
 
   .sign-in{
     width: 85vw;
-    padding-top: 90px;
+    padding-top: 45px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-left: 40px;
+    padding-left: 15vw;
+    font-size: 14px;
 
     .title{
       //margin: 10px 0px;
@@ -49,8 +50,20 @@
       visibility: visible;
     }
 
+    .buttons{
+      display: flex;
+      flex-direction: column;
+
+
+      .spacing{
+        height: 10px;
+      }
+
+    }
+
     .toSignUp{
       color: red;
+      font-size: 20px;
     }
   }
 }
