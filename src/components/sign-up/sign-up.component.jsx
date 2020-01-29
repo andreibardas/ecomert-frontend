@@ -2,7 +2,7 @@ import React from "react";
 
 import FormInput from "../form-input-sign-in/form-input-sign-in.component";
 import CustomButton from "../custom-button/custom-button.component";
-
+import firebase from "firebase";
 import {auth, createUserProfileDocument} from "../../firebase/firebase.utils";
 
 import "./sign-up.styles.scss";
@@ -19,16 +19,41 @@ class SignUp extends React.Component{
         }
     }
 
+
     handleSubmit = async event => {
         event.preventDefault();
 
         const {displayName, email, password, confirmPassword} = this.state;
 
-        if(password != confirmPassword){
+        if(password !== confirmPassword){
             alert("passwords don't match");
             return;
         }
             try{
+
+
+
+
+
+                const actionCodeSettings = {
+                    // URL you want to redirect back to. The domain (www.example.com) for this
+                    // URL must be whitelisted in the Firebase Console.
+                    url: 'http://localhost:3000',
+                    // This must be true.
+                    handleCodeInApp: true
+                };
+
+                firebase.auth().sendSignInLinkToEmail(email, actionCodeSettings)
+                    .then(function() {
+                        alert("Check your mail please");
+                        window.localStorage.setItem('emailForSignIn', email);
+
+
+                    })
+                    .catch(function(error) {
+                        alert(error.code);
+                    });
+
                 const {user} = await auth.createUserWithEmailAndPassword(email, password);
                 createUserProfileDocument(user, {displayName});
                 this.setState({
@@ -37,15 +62,22 @@ class SignUp extends React.Component{
                     password: "",
                     confirmPassword: ""
                 });
+
+
             }
             catch (error) {
                 console.error(error);
             }
+
+
+
     };
+
 
     handleChange = event => {
         const {name, value} = event.target;
         this.setState({[name]: value})
+
     };
 
     render() {
