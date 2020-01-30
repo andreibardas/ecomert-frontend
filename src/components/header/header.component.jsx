@@ -3,6 +3,7 @@ import {Link, Route, HashRouter} from "react-router-dom";
 import "./header.styles.scss";
 import {ReactComponent as Logo } from "../../assets/shoppingLogo.svg";
 import {auth} from "../../firebase/firebase.utils";
+import firebase from "firebase";
 
 const Header = ({currentUser})=>(
     <div className="header">
@@ -14,9 +15,6 @@ const Header = ({currentUser})=>(
             <Link className="option" to="/shop">
                 <i className="fas fa-shopping-basket fa-2x"></i>
             </Link>
-            {/*<Link className="option" to="/shop">
-                CONTACT
-            </Link>*/}
             {
                 currentUser ?
                     (
@@ -24,6 +22,7 @@ const Header = ({currentUser})=>(
                     ):(
                     <Link className="option" to="/signin"><i className="far fa-user fa-2x"></i></Link>
                         )
+
             }
 
             {/*<Link className="option" to="/signin">

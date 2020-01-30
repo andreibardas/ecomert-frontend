@@ -6,6 +6,7 @@ import firebase from "firebase";
 import {auth, createUserProfileDocument} from "../../firebase/firebase.utils";
 
 import "./sign-up.styles.scss";
+import {Link} from "react-router-dom";
 
 class SignUp extends React.Component{
     constructor() {
@@ -21,6 +22,7 @@ class SignUp extends React.Component{
 
 
     handleSubmit = async event => {
+        await auth.signOut();
         event.preventDefault();
 
         const {displayName, email, password, confirmPassword} = this.state;
@@ -30,10 +32,6 @@ class SignUp extends React.Component{
             return;
         }
             try{
-
-
-
-
 
                 const actionCodeSettings = {
                     // URL you want to redirect back to. The domain (www.example.com) for this
@@ -47,7 +45,6 @@ class SignUp extends React.Component{
                     .then(function() {
                         alert("Check your mail please");
                         window.localStorage.setItem('emailForSignIn', email);
-
 
                     })
                     .catch(function(error) {
@@ -64,10 +61,31 @@ class SignUp extends React.Component{
                 });
 
 
+                firebase.auth().onAuthStateChanged(function(user) {
+                    if (user.emailVerified) {
+                        user.sendEmailVerification();
+                        const {user} = auth.createUserWithEmailAndPassword(email, password);
+                        createUserProfileDocument(user, {displayName});
+                        this.setState({
+                            displayName: "",
+                            email: "",
+                            password: "",
+                            confirmPassword: ""
+                        });
+
+                    }
+                    else {
+                        auth.signOut();
+                    }
+                });
+
+
+
+
             }
-            catch (error) {
+                catch (error) {
                 console.error(error);
-            }
+                }
 
 
 

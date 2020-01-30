@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.component.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <workItem from="1580279183512" duration="9623000" />
       <workItem from="1580319727880" duration="12891000" />
       <workItem from="1580364379300" duration="59000" />
-      <workItem from="1580364465408" duration="152000" />
+      <workItem from="1580364465408" duration="11898000" />
     </task>
     <servers />
   </component>
@@ -154,10 +155,10 @@
     <state x="-1684" y="-521" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@-1920.-581.1920.1040" timestamp="1579977225979" />
     <state x="125" y="0" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965213632" />
     <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579805829457" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580329320592">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580375914752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580329320592" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580375914752" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579312125557" />
     <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580288338377">
       <screen x="0" y="0" width="1366" height="728" />
