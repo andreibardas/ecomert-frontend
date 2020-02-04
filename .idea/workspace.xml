@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/bx-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.component.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart-icon/cart.icon.styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/user/user.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,16 +59,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\assets" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-preview" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bardas\Desktop\ecomert\src\assets" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\pages\sign-in-and-sign-up" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Dulciuri" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Snacks" />
       <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Cafea" />
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images\Alcool" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\Images" />
-      <recent name="C:\Users\Bardas\Desktop\ecomert\src\components\collection-preview" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -115,7 +119,7 @@
       <workItem from="1580364379300" duration="59000" />
       <workItem from="1580364465408" duration="11898000" />
       <workItem from="1580798610801" duration="2559000" />
-      <workItem from="1580828774870" duration="4420000" />
+      <workItem from="1580828774870" duration="12354000" />
     </task>
     <servers />
   </component>
