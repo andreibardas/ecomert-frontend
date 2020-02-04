@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ecomert/static/css/main.5a7a3c6a.chunk.css",
-    "main.js": "/ecomert/static/js/main.d4e0e8d8.chunk.js",
-    "main.js.map": "/ecomert/static/js/main.d4e0e8d8.chunk.js.map",
+    "main.css": "/ecomert/static/css/main.235717a2.chunk.css",
+    "main.js": "/ecomert/static/js/main.4bd0dbac.chunk.js",
+    "main.js.map": "/ecomert/static/js/main.4bd0dbac.chunk.js.map",
     "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
     "runtime-main.js.map": "/ecomert/static/js/runtime-main.e23c8ca9.js.map",
     "static/js/2.f8267f74.chunk.js": "/ecomert/static/js/2.f8267f74.chunk.js",
     "static/js/2.f8267f74.chunk.js.map": "/ecomert/static/js/2.f8267f74.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.542b815c1be3953312bd6fb1e01d0de8.js": "/ecomert/precache-manifest.542b815c1be3953312bd6fb1e01d0de8.js",
+    "precache-manifest.13c4f72cb01c2b68563abd27470caf1b.js": "/ecomert/precache-manifest.13c4f72cb01c2b68563abd27470caf1b.js",
     "service-worker.js": "/ecomert/service-worker.js",
-    "static/css/main.5a7a3c6a.chunk.css.map": "/ecomert/static/css/main.5a7a3c6a.chunk.css.map",
+    "static/css/main.235717a2.chunk.css.map": "/ecomert/static/css/main.235717a2.chunk.css.map",
     "static/js/2.f8267f74.chunk.js.LICENSE": "/ecomert/static/js/2.f8267f74.chunk.js.LICENSE",
     "static/media/alcool.jpg": "/ecomert/static/media/alcool.46526b84.jpg",
     "static/media/alcool1_jack.jpg": "/ecomert/static/media/alcool1_jack.fd89eaea.jpg",
@@ -45,6 +45,7 @@
     "static/media/dulciuri5_kindersurprise.jpg": "/ecomert/static/media/dulciuri5_kindersurprise.77696e00.jpg",
     "static/media/dulciuri6_kinderbueno.jpg": "/ecomert/static/media/dulciuri6_kinderbueno.14798c1c.jpg",
     "static/media/dulciuri7_kinderdelice.jpg": "/ecomert/static/media/dulciuri7_kinderdelice.ae9859cf.jpg",
+    "static/media/shopping-bag.c47c4595.svg": "/ecomert/static/media/shopping-bag.c47c4595.svg",
     "static/media/shoppingLogo.5df79e77.svg": "/ecomert/static/media/shoppingLogo.5df79e77.svg",
     "static/media/snacks.jpg": "/ecomert/static/media/snacks.5e2fb27e.jpg",
     "static/media/snacks1_fistic.jpg": "/ecomert/static/media/snacks1_fistic.6f22b939.jpg",
@@ -76,7 +77,7 @@
   "entrypoints": [
     "static/js/runtime-main.e23c8ca9.js",
     "static/js/2.f8267f74.chunk.js",
-    "static/css/main.5a7a3c6a.chunk.css",
-    "static/js/main.d4e0e8d8.chunk.js"
+    "static/css/main.235717a2.chunk.css",
+    "static/js/main.4bd0dbac.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae48ad8b8ab94b7c1210693149efedf1",
+    "revision": "20d4548ac9090c037524e0e91f2a94ad",
     "url": "/ecomert/index.html"
   },
   {
-    "revision": "e75469c9c7695d6d09de",
-    "url": "/ecomert/static/css/main.5a7a3c6a.chunk.css"
+    "revision": "19029fea0d3a5573325f",
+    "url": "/ecomert/static/css/main.235717a2.chunk.css"
   },
   {
     "revision": "efe51ad9d19ac2a25ae4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ecomert/static/js/2.f8267f74.chunk.js.LICENSE"
   },
   {
-    "revision": "e75469c9c7695d6d09de",
-    "url": "/ecomert/static/js/main.d4e0e8d8.chunk.js"
+    "revision": "19029fea0d3a5573325f",
+    "url": "/ecomert/static/js/main.4bd0dbac.chunk.js"
   },
   {
     "revision": "6844bc73d77dd2865d31",
@@ -154,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ae9859cf8d22941ec994d721cdce786a",
     "url": "/ecomert/static/media/dulciuri7_kinderdelice.ae9859cf.jpg"
+  },
+  {
+    "revision": "c47c45952b24ff71017c17096efe615d",
+    "url": "/ecomert/static/media/shopping-bag.c47c4595.svg"
   },
   {
     "revision": "5df79e77e3fcdfa52d6acbf6605520d4",
