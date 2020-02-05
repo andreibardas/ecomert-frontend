@@ -128,49 +128,49 @@ const SHOP_DATA = [
         routeName: 'snacks',
         items: [
             {
-                id: 1,
+                id: 10,
                 name: 'Fistic',
                 imageUrl: Snacks1,
                 price: 220
             },
             {
-                id: 2,
+                id: 11,
                 name: 'Alune',
                 imageUrl: Snacks2,
                 price: 280
             },
             {
-                id: 3,
+                id: 12,
                 name: 'Porumb',
                 imageUrl: Snacks3,
                 price: 110
             },
             {
-                id: 4,
+                id: 13,
                 name: 'Pringles',
                 imageUrl: Snacks4,
                 price: 160
             },
             {
-                id: 5,
+                id: 14,
                 name: 'Tuc Sare',
                 imageUrl: Snacks5,
                 price: 160
             },
             {
-                id: 6,
+                id: 15,
                 name: 'Bake Rolls Sare',
                 imageUrl: Snacks6,
                 price: 160
             },
             {
-                id: 7,
+                id: 16,
                 name: 'Lays Baked Sare',
                 imageUrl: Snacks7,
                 price: 190
             },
             {
-                id: 8,
+                id: 17,
                 name: 'Lays Maxx Sare',
                 imageUrl: Snacks8,
                 price: 200
@@ -183,31 +183,31 @@ const SHOP_DATA = [
         routeName: 'cafea',
         items: [
             {
-                id: 1,
+                id: 18,
                 name: 'Illy',
                 imageUrl: Cafea1,
                 price: 125
             },
             {
-                id: 2,
+                id: 19,
                 name: 'Pellini TOP',
                 imageUrl: Cafea2,
                 price: 90
             },
             {
-                id: 3,
+                id: 20,
                 name: 'Lavazza D-Oro',
                 imageUrl: Cafea3,
                 price: 90
             },
             {
-                id: 4,
+                id: 21,
                 name: '',
-                imageUrl: "",
+                imageUrl: Cafea1,
                 price: null
             },
             {
-                id: 5,
+                id: 22,
                 name: '',
                 imageUrl: "",
                 price: 185
@@ -220,43 +220,43 @@ const SHOP_DATA = [
         routeName: 'bere',
         items: [
             {
-                id: 1,
+                id: 23,
                 name: 'Corona',
                 imageUrl: Bere1,
                 price: 25
             },
             {
-                id: 2,
+                id: 24,
                 name: 'Desperados',
                 imageUrl: Bere2,
                 price: 20
             },
             {
-                id: 3,
+                id: 25,
                 name: 'Effes',
                 imageUrl: Bere3,
                 price: 80
             },
             {
-                id: 4,
+                id: 26,
                 name: 'Strongbow Rosu Sticla',
                 imageUrl: Bere4,
                 price: 80
             },
             {
-                id: 5,
+                id: 27,
                 name: 'Peroni Doza',
                 imageUrl: Bere5,
                 price: 45
             },
             {
-                id: 6,
+                id: 28,
                 name: 'Stella Doza',
                 imageUrl: Bere6,
                 price: 135
             },
             {
-                id: 7,
+                id: 29,
                 name: '',
                 imageUrl: '',
                 price: 20
@@ -269,43 +269,43 @@ const SHOP_DATA = [
         routeName: 'alcool',
         items: [
             {
-                id: 1,
+                id: 30,
                 name: 'Jack Daniels',
                 imageUrl: Alcool1,
                 price: 325
             },
             {
-                id: 2,
+                id: 31,
                 name: "Jagermeister",
                 imageUrl: Alcool2,
                 price: 20
             },
             {
-                id: 3,
+                id: 32,
                 name: 'Absolut',
                 imageUrl: Alcool3,
                 price: 25
             },
             {
-                id: 4,
+                id: 33,
                 name: 'Beciul Domnesc Demisec',
                 imageUrl: Alcool4,
                 price: 25
             },
             {
-                id: 5,
+                id: 34,
                 name: 'Alexandrion 500ml',
                 imageUrl: Alcool5,
                 price: 40
             },
             {
-                id: 6,
+                id: 35,
                 name: 'Jidvei Dry Muscat',
                 imageUrl: Alcool6,
                 price: 25
             },
             {
-                id: 7,
+                id: 36,
                 name: 'Jidvei Clasic',
                 imageUrl: Alcool7,
                 price: 25
@@ -318,37 +318,37 @@ const SHOP_DATA = [
         routeName: 'tutun',
         items: [
             {
-                id: 1,
+                id: 37,
                 name: 'Glo NeoStick Albastru',
                 imageUrl: Tutun1,
                 price: 325
             },
             {
-                id: 2,
+                id: 38,
                 name: 'Dunhill Albastru',
                 imageUrl: Tutun2,
                 price: 20
             },
             {
-                id: 3,
+                id: 39,
                 name: 'Marlboro Rosu Scurt',
                 imageUrl: Tutun3,
                 price: 25
             },
             {
-                id: 4,
+                id: 40,
                 name: 'Davidoff Rosu',
                 imageUrl: Tutun4,
                 price: 25
             },
             {
-                id: 5,
+                id: 41,
                 name: 'Heets Bronze',
                 imageUrl: Tutun5,
                 price: 40
             },
             {
-                id: 6,
+                id: 42,
                 name: 'Heets Portocaliu',
                 imageUrl: Tutun6,
                 price: 25
@@ -361,37 +361,37 @@ const SHOP_DATA = [
         routeName: 'apa',
         items: [
             {
-                id: 1,
+                id: 43,
                 name: 'Borsec Plata 500ml',
                 imageUrl: Apa1,
                 price: 325
             },
             {
-                id: 2,
+                id: 44,
                 name: 'Borsec Minerala 500ml',
                 imageUrl: Apa2,
                 price: 20
             },
             {
-                id: 3,
+                id: 45,
                 name: 'Aqua Plata 500ml',
                 imageUrl: Apa3,
                 price: 25
             },
             {
-                id: 4,
+                id: 46,
                 name: 'Aqua Minerala 500ml',
                 imageUrl: Apa4,
                 price: 25
             },
             {
-                id: 5,
+                id: 47,
                 name: 'Dorna Plata 500ml',
                 imageUrl: Apa5,
                 price: 40
             },
             {
-                id: 6,
+                id: 48,
                 name: '',
                 imageUrl: '',
                 price: 25
@@ -404,55 +404,55 @@ const SHOP_DATA = [
         routeName: 'suc',
         items: [
             {
-                id: 1,
+                id: 49,
                 name: 'Coca-Cola 500ml',
                 imageUrl: Suc1,
                 price: 325
             },
             {
-                id: 2,
+                id: 50,
                 name: 'Fuse Tea Piersici 500ml',
                 imageUrl: Suc2,
                 price: 20
             },
             {
-                id: 3,
+                id: 51,
                 name: 'FuseTea Fructe de Padure 500ml',
                 imageUrl: Suc3,
                 price: 25
             },
             {
-                id: 4,
+                id: 52,
                 name: 'Schweppes Tonic 500ml',
                 imageUrl: Suc4,
                 price: 25
             },
             {
-                id: 5,
+                id: 53,
                 name: 'Schweppes BitterLemon 500ml',
                 imageUrl: Suc5,
                 price: 40
             },
             {
-                id: 6,
+                id: 54,
                 name: 'Cappy Lemonade Lamaie 300ml',
                 imageUrl: Suc6,
                 price: 25
             },
             {
-                id: 7,
+                id: 55,
                 name: 'Monster Verde',
                 imageUrl: Suc7,
                 price: 25
             },
             {
-                id: 8,
+                id: 56,
                 name: 'Coca-Cola Doza',
                 imageUrl: Suc8,
                 price: 25
             },
             {
-                id: 9,
+                id: 57,
                 name: 'RedBull',
                 imageUrl: Suc9,
                 price: 25

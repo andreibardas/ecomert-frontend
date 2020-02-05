@@ -55,7 +55,7 @@ class SignIn extends React.Component{
                         <div className="spacing">
                         </div>
                         <Link className="option" to="/">
-                        <CustomButton type="button" onClick={signInWithGoogle} >{" "}Intra in cont cu <span style={{fontSize: "22px"}}><span style={{color: "#4285F4"}}>G</span><span style={{color: "#DB4437"}}>o</span><span style={{color: "#F4B400"}}>o</span><span style={{color: "#4285F4"}}>g</span><span style={{color: "#0F9D58"}}>l</span><span style={{color: "#DB4437"}}>e</span></span>{" "}</CustomButton>
+                        <CustomButton type="button" onClick={signInWithGoogle} >{" "}Intra in cont cu <span style={{fontSize: "20px"}}><span style={{color: "#4285F4"}}>G</span><span style={{color: "#DB4437"}}>o</span><span style={{color: "#F4B400"}}>o</span><span style={{color: "#4285F4"}}>g</span><span style={{color: "#0F9D58"}}>l</span><span style={{color: "#DB4437"}}>e</span></span>{" "}</CustomButton>
                         </Link>
                         </div>
                     </form>
