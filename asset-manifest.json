@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ecomert/static/css/main.927540e1.chunk.css",
-    "main.js": "/ecomert/static/js/main.e6995999.chunk.js",
-    "main.js.map": "/ecomert/static/js/main.e6995999.chunk.js.map",
+    "main.js": "/ecomert/static/js/main.8f9f2904.chunk.js",
+    "main.js.map": "/ecomert/static/js/main.8f9f2904.chunk.js.map",
     "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
     "runtime-main.js.map": "/ecomert/static/js/runtime-main.e23c8ca9.js.map",
     "static/js/2.7ea10611.chunk.js": "/ecomert/static/js/2.7ea10611.chunk.js",
     "static/js/2.7ea10611.chunk.js.map": "/ecomert/static/js/2.7ea10611.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.5b25398520590fe14ea481d3c222ba40.js": "/ecomert/precache-manifest.5b25398520590fe14ea481d3c222ba40.js",
+    "precache-manifest.e33c046aba93b824aea315dd080e8437.js": "/ecomert/precache-manifest.e33c046aba93b824aea315dd080e8437.js",
     "service-worker.js": "/ecomert/service-worker.js",
     "static/css/main.927540e1.chunk.css.map": "/ecomert/static/css/main.927540e1.chunk.css.map",
     "static/js/2.7ea10611.chunk.js.LICENSE": "/ecomert/static/js/2.7ea10611.chunk.js.LICENSE",
@@ -78,6 +78,6 @@
     "static/js/runtime-main.e23c8ca9.js",
     "static/js/2.7ea10611.chunk.js",
     "static/css/main.927540e1.chunk.css",
-    "static/js/main.e6995999.chunk.js"
+    "static/js/main.8f9f2904.chunk.js"
   ]
 }
