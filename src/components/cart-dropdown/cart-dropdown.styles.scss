@@ -1,7 +1,7 @@
 .cart-dropdown {
   position: absolute;
-  width: 340px;
-  height: 440px;
+  width: 25vw;
+  //height: 440px;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -16,19 +16,20 @@
     display: flex;
     flex-direction: column;
     ////ADAUGAT PT SCROLL
-    overflow: hidden;
-    //overflow: scroll;
+    //overflow: hidden;
+    overflow: scroll;
   }
 
-  button {
-    margin-top: auto;
+   button{
+     margin-top: auto;
+     min-width: 100px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .cart-dropdown {
     position: absolute;
-    width: 80vw;
+    width: 60vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -44,8 +45,8 @@
       display: flex;
       flex-direction: column;
       ////ADAUGAT PT SCROLL
-      overflow: hidden;
-      //overflow: scroll;
+      //overflow: hidden;
+      overflow: scroll;
     }
 
     button {
