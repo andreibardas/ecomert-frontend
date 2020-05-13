@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fc9d851-c926-493b-af6e-75e2cd6e94ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/thecon-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -115,6 +116,9 @@
       <workItem from="1580798610801" duration="2559000" />
       <workItem from="1580828774870" duration="16905000" />
       <workItem from="1580907007466" duration="18050000" />
+      <workItem from="1589273221910" duration="1688000" />
+      <workItem from="1589275935419" duration="2000" />
+      <workItem from="1589277877201" duration="121000" />
     </task>
     <servers />
   </component>
@@ -125,52 +129,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="27" key="#ESLint" timestamp="1580220612587">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="550" y="27" key="#ESLint/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580220612587" />
-    <state x="550" y="27" key="#ESLint/0.0.1366.728@0.0.1366.728" timestamp="1579376247294" />
     <state x="275" y="23" key="#Inspections" timestamp="1580829983503">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Inspections/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580829983503" />
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579965060019">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589277996077">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965060019" />
-    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1579965180445">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965180445" />
-    <state x="529" y="152" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.728@0.0.1366.728" timestamp="1579805028786" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580327197735">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580327197735" />
-    <state x="635" y="147" key="EditFileWatcherDialog" timestamp="1578991035232">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="635" y="147" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1578991035232" />
-    <state x="579" y="127" key="FileChooserDialogImpl" timestamp="1579965179985">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965179985" />
-    <state x="579" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579805027602" />
-    <state x="-1684" y="-521" key="SettingsEditor" timestamp="1579977225979">
-      <screen x="-1920" y="-581" width="1920" height="1040" />
-    </state>
-    <state x="-1684" y="-521" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@-1920.-581.1920.1040" timestamp="1579977225979" />
-    <state x="125" y="0" key="SettingsEditor/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1579965213632" />
-    <state x="300" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579805829457" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1580375914752">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580375914752" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579312125557" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580288338377">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-581.1920.1040@0.0.1366.728" timestamp="1580288338377" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579366787027" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589277996077" />
   </component>
 </project>
