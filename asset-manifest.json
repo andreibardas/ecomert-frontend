@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ecomert/static/css/main.927540e1.chunk.css",
-    "main.js": "/ecomert/static/js/main.36b6e889.chunk.js",
-    "main.js.map": "/ecomert/static/js/main.36b6e889.chunk.js.map",
-    "runtime-main.js": "/ecomert/static/js/runtime-main.e23c8ca9.js",
-    "runtime-main.js.map": "/ecomert/static/js/runtime-main.e23c8ca9.js.map",
-    "static/js/2.7ea10611.chunk.js": "/ecomert/static/js/2.7ea10611.chunk.js",
-    "static/js/2.7ea10611.chunk.js.map": "/ecomert/static/js/2.7ea10611.chunk.js.map",
+    "main.css": "/ecomert/static/css/main.768f9785.chunk.css",
+    "main.js": "/ecomert/static/js/main.a4a67743.chunk.js",
+    "main.js.map": "/ecomert/static/js/main.a4a67743.chunk.js.map",
+    "runtime-main.js": "/ecomert/static/js/runtime-main.5e5f265c.js",
+    "runtime-main.js.map": "/ecomert/static/js/runtime-main.5e5f265c.js.map",
+    "static/js/2.fc8ae230.chunk.js": "/ecomert/static/js/2.fc8ae230.chunk.js",
+    "static/js/2.fc8ae230.chunk.js.map": "/ecomert/static/js/2.fc8ae230.chunk.js.map",
     "index.html": "/ecomert/index.html",
-    "precache-manifest.c7f5b4c81b1c1dc2af351286d9cbe419.js": "/ecomert/precache-manifest.c7f5b4c81b1c1dc2af351286d9cbe419.js",
+    "precache-manifest.d22513ffa41159e7804965a8f770a37c.js": "/ecomert/precache-manifest.d22513ffa41159e7804965a8f770a37c.js",
     "service-worker.js": "/ecomert/service-worker.js",
-    "static/css/main.927540e1.chunk.css.map": "/ecomert/static/css/main.927540e1.chunk.css.map",
-    "static/js/2.7ea10611.chunk.js.LICENSE": "/ecomert/static/js/2.7ea10611.chunk.js.LICENSE",
+    "static/css/main.768f9785.chunk.css.map": "/ecomert/static/css/main.768f9785.chunk.css.map",
+    "static/js/2.fc8ae230.chunk.js.LICENSE.txt": "/ecomert/static/js/2.fc8ae230.chunk.js.LICENSE.txt",
     "static/media/alcool.jpg": "/ecomert/static/media/alcool.46526b84.jpg",
     "static/media/alcool1_jack.jpg": "/ecomert/static/media/alcool1_jack.fd89eaea.jpg",
     "static/media/alcool2_jagermeister.jpg": "/ecomert/static/media/alcool2_jagermeister.7258f5ac.jpg",
@@ -46,7 +46,7 @@
     "static/media/dulciuri6_kinderbueno.jpg": "/ecomert/static/media/dulciuri6_kinderbueno.14798c1c.jpg",
     "static/media/dulciuri7_kinderdelice.jpg": "/ecomert/static/media/dulciuri7_kinderdelice.ae9859cf.jpg",
     "static/media/shopping-bag.c47c4595.svg": "/ecomert/static/media/shopping-bag.c47c4595.svg",
-    "static/media/shoppingLogo.5df79e77.svg": "/ecomert/static/media/shoppingLogo.5df79e77.svg",
+    "static/media/shoppingLogo.de68c39a.svg": "/ecomert/static/media/shoppingLogo.de68c39a.svg",
     "static/media/snacks.jpg": "/ecomert/static/media/snacks.5e2fb27e.jpg",
     "static/media/snacks1_fistic.jpg": "/ecomert/static/media/snacks1_fistic.6f22b939.jpg",
     "static/media/snacks2_alune.jpg": "/ecomert/static/media/snacks2_alune.e9f685b2.jpg",
@@ -75,9 +75,9 @@
     "static/media/tutun6_heetsportocaliu.jpg": "/ecomert/static/media/tutun6_heetsportocaliu.f49435d4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e23c8ca9.js",
-    "static/js/2.7ea10611.chunk.js",
-    "static/css/main.927540e1.chunk.css",
-    "static/js/main.36b6e889.chunk.js"
+    "static/js/runtime-main.5e5f265c.js",
+    "static/js/2.fc8ae230.chunk.js",
+    "static/css/main.768f9785.chunk.css",
+    "static/js/main.a4a67743.chunk.js"
   ]
 }
