@@ -33,3 +33,17 @@
   text-align: center;
   width: 30%;
 }
+
+@media screen and (max-width: 800px){
+  .container {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 140px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+}
