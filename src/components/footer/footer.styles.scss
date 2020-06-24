@@ -1,0 +1,35 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  height: 70px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  // margin-left: -20%;
+  font-size: 1.1rem;
+  // background-color: red;
+  text-align: center;
+  width: 30%;
+}
+
+.proiect-licenta {
+  // margin-left: -20%;
+  font-size: 1.1rem;
+  // background-color: red;
+  text-align: center;
+  width: 30%;
+}
+
+.contact {
+  // margin-right: -20%;
+  font-size: 1.1rem;
+  // background-color: red;
+  text-align: center;
+  width: 30%;
+}
