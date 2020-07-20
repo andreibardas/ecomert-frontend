@@ -11,6 +11,7 @@ import Footer from "./components/footer/footer.component";
 import SignUp from "./components/sign-up/sign-up.component";
 import {auth, createUserProfileDocument} from "./firebase/firebase.utils";
 import {setCurrentUser} from "./redux/user/user.actions";
+import Sweets from './pages/sweets/sweets.component';
 
 class App extends React.Component {
   unsubsribeFromAuth = null;
@@ -49,6 +50,7 @@ class App extends React.Component {
               <Route path= '/shop' component={ShopPage}/>
               <Route exact path="/signin" render={() => this.props.currentUser ? (<Redirect to="/"/>) : (<SignInAndSignUpPage/>) }  />
               <Route path="/signup" component={SignUp}/>
+              <Route path="/sweets" component={Sweets}/>
             </Switch>
             <Footer/>
           </div>

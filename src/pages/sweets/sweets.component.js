@@ -1,9 +1,9 @@
 import React from "react";
 import axios from 'axios';
 
-import SHOP_DATA from "./shop.data";
+// import SHOP_DATA from "./shop.data";
 import "../../components/collection-preview/collection-preview.component";
-import CollectionPreview from "../../components/collection-preview/collection-preview.component";
+// import CollectionPreview from "../../components/collection-preview/collection-preview.component";
 import { compose } from "redux";
 // import product from "../../../../Backend/validation/product";
 
@@ -11,12 +11,12 @@ import { compose } from "redux";
 
 
 
-class ShopPage extends React.Component{
+class Sweets extends React.Component{
     constructor(props) {
         super(props);
 
         this.state = {
-            collections: SHOP_DATA,
+            // collections: SHOP_DATA,
             products: []
         };
     }
@@ -31,7 +31,7 @@ class ShopPage extends React.Component{
     }
 
     render(){
-                const {collections} = this.state.collections;
+                // const {collections} = this.state.collections;
                 return (
                 <div className="shop-page">
 
@@ -73,4 +73,4 @@ class ShopPage extends React.Component{
         }
     }
 
-export default ShopPage;
+export default Sweets;

@@ -21,7 +21,7 @@ class Directory extends React.Component{
                     title: "Dulciuri",
                     id: 1,
                     image: Dulciuri,
-                    linkUrl: "dulciuri"
+                    linkUrl: "sweets"
                 },
                 {
                     title: "Aperitive Sarate",
