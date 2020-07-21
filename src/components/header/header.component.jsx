@@ -19,20 +19,20 @@ const Header = ({currentUser, hidden})=>(
         </Link>
         <div className="options">
 
-            <Link className="option" to="/shop">
-                <box-icon name='cart' size="lg"></box-icon>
+            {/*<Link className="option" to="/shop">*/}
+                {/*<box-icon name='cart' size="lg"></box-icon>*/}
                 {/*<img src="https://img.icons8.com/wired/32/000000/click-and-collect.png"/>*/}
                 {/*<i className="fas fa-cart-plus fa-2x"></i>*/}
                 {/*<i className="fas fa-shopping-basket fa-2x"></i>*/}
-            </Link>
+            {/*</Link>*/}
 
 
             {
                 currentUser ?
                     (
-                    <div className="option" onClick={()=>auth.signOut()}><box-icon name='log-out' size="lg"></box-icon>loggedIN</div>
+                    <div className="option" onClick={()=>auth.signOut()}><box-icon name='log-out' size="lg"></box-icon></div>
                     ):(
-                    <Link className="option" to="/signin"><i className="far fa-user fa-2x"></i>loggedOUT</Link>
+                        <div className="option" onClick={()=>auth.signOut()}><box-icon name='log-in' size="lg"></box-icon></div>
                         )
             }
             <CartIcon/>

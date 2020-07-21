@@ -6,6 +6,9 @@ import "../../components/collection-preview/collection-preview.component";
 // import CollectionPreview from "../../components/collection-preview/collection-preview.component";
 import { compose } from "redux";
 // import product from "../../../../Backend/validation/product";
+import CustomButton from "../../components/custom-button/custom-button.component";
+
+import "./sweets.styles.scss";
 
 
 
@@ -33,40 +36,38 @@ class Sweets extends React.Component{
     render(){
                 // const {collections} = this.state.collections;
                 return (
+                    <div>
+                        <h1 className="page-title">Dulciuri</h1>
                 <div className="shop-page">
-
-
                     {
                     this.state.products.map(product => 
                         <div style={{marginTop: "100px"}}>
-                        {
-                            <h1 style={{textDecoration: "underline"}}>{product.name}</h1>
-                        }
-                        {
-                            <img src ={product.photo} alt={`imagine ${product.name}`}/>
-                        }
-                        {
-                            <h2>Pret: {product.price} lei</h2>
-                        }
-                        {
-                            <h2>Descriere: {product.description}</h2>
-                        }
-                        {
-                            <h2>Categorie: {product.category}</h2>
-                        }
+                        
+                        <div className="collection-item">
+                        <div
+                            className="image"
+                            style={{
+                                backgroundImage: `url(${product.photo})`
+                            }}
+                        />
+                        <div className="collection-footer">
+                            <span className="name">{product.name}</span>
+                            <span className="price">{product.price} lei</span>
+                        </div>
+                        <CustomButton >ADAUGA IN COS</CustomButton>
+                        </div>
+
+
                         </div>
                         )    
                     
                     }
 
+                    <i aria-hidden="true"></i>
+                    <i aria-hidden="true"></i>
+                    <i aria-hidden="true"></i>
 
-
-
-                    {/* {
-                        collections.map(({id, title, routeName, items}) => (
-                            <CollectionPreview key={id} title={title} routeName={routeName} items={items}/>
-                        ))
-                    } */}
+                </div>
                 </div>
                 );
 
