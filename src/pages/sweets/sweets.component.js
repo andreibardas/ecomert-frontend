@@ -7,6 +7,7 @@ import "../../components/collection-preview/collection-preview.component";
 import { compose } from "redux";
 // import product from "../../../../Backend/validation/product";
 import CustomButton from "../../components/custom-button/custom-button.component";
+import Spinner from "../../components/spinner/spinner.component";
 
 import "./sweets.styles.scss";
 
@@ -20,15 +21,18 @@ class Sweets extends React.Component{
 
         this.state = {
             // collections: SHOP_DATA,
-            products: []
+            products: [],
+            loading: false
         };
     }
 
     componentDidMount(){
+        this.setState({ loading: true })
         axios.get('/api/products')
             .then(res => {
                 this.setState({ products: res.data });
                 this.state.products.map(product => console.log(product));
+                this.setState({loading: false});
             })
             .catch(err => {console.log(err)})
     }
@@ -36,6 +40,17 @@ class Sweets extends React.Component{
     render(){
                 // const {collections} = this.state.collections;
                 return (
+                    this.state.loading 
+                    
+                    ? 
+                    
+                    <div>
+                    <h1 className="page-title">Dulciuri</h1>
+                    <Spinner/>
+                    </div>
+                    
+                    :
+
                     <div>
                         <h1 className="page-title">Dulciuri</h1>
                 <div className="shop-page">
@@ -50,11 +65,16 @@ class Sweets extends React.Component{
                                 backgroundImage: `url(${product.photo})`
                             }}
                         />
+                        <div className="description">
+                            <p className="description-text">
+                                <strong>Descriere:</strong> <br/><br/>{product.description}
+                            </p>
+                        </div>
                         <div className="collection-footer">
                             <span className="name">{product.name}</span>
                             <span className="price">{product.price} lei</span>
                         </div>
-                        <CustomButton >ADAUGA IN COS</CustomButton>
+                        <CustomButton>ADAUGA IN COS</CustomButton>
                         </div>
 
 

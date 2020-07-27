@@ -12,7 +12,10 @@ import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 const Header = ({currentUser, hidden})=>(
     <div className="header">
         <Link className="logo-container" to="/">
-            <box-icon name='home-heart' size="lg"></box-icon>
+            <span className="home-heart">
+            <box-icon  name='home-heart' size="lg"></box-icon>
+            </span>
+            <h1 className="navbar-title">eComert</h1>
             {/*<img src="https://img.icons8.com/carbon-copy/50/000000/shop.png"/>*/}
             {/*<i className="fas fa-store fa-2x"></i>*/}
             {/*<Logo className="logo"/>*/}
@@ -30,9 +33,9 @@ const Header = ({currentUser, hidden})=>(
             {
                 currentUser ?
                     (
-                    <div className="option" onClick={()=>auth.signOut()}><box-icon name='log-out' size="lg"></box-icon></div>
+                        <Link to="/signin"><div className="option" ><box-icon name='log-out' size="lg"></box-icon></div></Link>
                     ):(
-                        <div className="option" onClick={()=>auth.signOut()}><box-icon name='log-in' size="lg"></box-icon></div>
+                        <Link to="/signin"><div className="option" ><box-icon name='log-in' size="lg"></box-icon></div></Link>
                         )
             }
             <CartIcon/>

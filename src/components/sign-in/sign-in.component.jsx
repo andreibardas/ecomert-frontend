@@ -1,11 +1,12 @@
 import React from "react";
-
+import axios from "axios";
 import FormInputSignIn from "../form-input-sign-in/form-input-sign-in.component";
 
 import "./sign-in.styles.scss";
 import CustomButton from "../custom-button/custom-button.component";
 import {auth, signInWithGoogle} from "../../firebase/firebase.utils";
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class SignIn extends React.Component{
 
@@ -14,7 +15,8 @@ class SignIn extends React.Component{
 
         this.state = {
             email: "",
-            password: ""
+            password: "",
+            loggedIn: null
         };
 
     }
@@ -22,6 +24,8 @@ class SignIn extends React.Component{
     handleSubmit = async event => {
         event.preventDefault();
 
+
+        /*
         const {email, password} = this.state;
 
         try{
@@ -33,6 +37,25 @@ class SignIn extends React.Component{
         }
 
         this.setState({email: "", password: ""});
+
+        */
+
+       axios.post('/api/users/login', {
+        email: this.state.email,
+        password: this.state.password
+      })
+      .then(response => {
+        
+        response.data.success === true ? this.setState({ loggedIn: true }) : this.setState({ loggedIn: false });
+        this.setState({loggedIn: response.data.success});
+        this.state.loggedIn === true ? this.props.history.push('/sweets') : console.log("loggedin: " + this.state.loggedIn);
+        
+      })
+      .catch(err => {
+          console.log(err);
+      })
+
+
     };
 
     handleChange = event => {
@@ -42,7 +65,11 @@ class SignIn extends React.Component{
     };
 
     render() {
+
+        const { match, location, history } = this.props;
+
         return(
+
             <div className="sign-in">
                 <h2>Am deja un cont</h2>
                 <span>Intra in cont folosind email-ul si parola</span>
@@ -66,4 +93,4 @@ class SignIn extends React.Component{
     }
 }
 
-export default SignIn;
+export default withRouter(SignIn);
