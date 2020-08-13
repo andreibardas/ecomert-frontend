@@ -4,23 +4,27 @@ import FormInput from "../form-input-sign-in/form-input-sign-in.component";
 import CustomButton from "../custom-button/custom-button.component";
 import firebase from "firebase";
 import {auth, createUserProfileDocument} from "../../firebase/firebase.utils";
+import axios from "axios";
 
 import "./sign-up.styles.scss";
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class SignUp extends React.Component{
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
-            displayName: "",
+            name: "",
             email: "",
             password: "",
-            confirmPassword: ""
+            password2: "",
+            loggedIn: false,
+            token: null,
         }
     }
 
-
+/*
     handleSubmit = async event => {
         await auth.signOut();
         event.preventDefault();
@@ -31,6 +35,7 @@ class SignUp extends React.Component{
             alert("passwords don't match");
             return;
         }
+        
             try{
 
                 const actionCodeSettings = {
@@ -87,9 +92,58 @@ class SignUp extends React.Component{
                 console.error(error);
                 }
 
-
-
     };
+    */
+
+
+   handleSubmit = async event => {
+    event.preventDefault();
+    
+   axios.post('/api/users/register', {
+    name: this.state.name,
+    email: this.state.email,
+    password: this.state.password,
+    password2: this.state.password2
+
+  })
+  .then(response => {
+    
+    // response.data.success === true ? this.setState({ loggedIn: true, token: response.data.token }) : this.setState({ loggedIn: false });
+    axios.post('/api/users/login', {
+        email: this.state.email,
+        password: this.state.password
+      })
+      .then(response => {
+        
+        response.data.success === true ? this.setState({ loggedIn: true, token: response.data.token }) : this.setState({ loggedIn: false });
+        this.setState({loggedIn: response.data.success, token: response.data.token});
+        this.state.loggedIn === true ? this.props.history.push('/sweets') : console.log("loggedin: " + this.state.loggedIn);
+        console.error(this.state.token);
+        localStorage.setItem('access_token', response.data.token);
+        console.log(localStorage.getItem('access_token'));
+        window.location.reload(false);
+        
+      })
+      .catch(err => {
+          console.log(err);
+      })
+    
+  })
+  .catch(err => {
+      console.log(err);
+  })
+
+
+
+
+
+
+
+
+  // this.setState({token: this.myToken});
+  
+
+};
 
 
     handleChange = event => {
@@ -99,7 +153,7 @@ class SignUp extends React.Component{
     };
 
     render() {
-        const {displayName, email, password, confirmPassowrd} = this.state;
+        const {name, email, password, password2} = this.state;
 
         return(
             <div className="sign-up">
@@ -108,8 +162,8 @@ class SignUp extends React.Component{
                 <form className="sign-up-form" onSubmit={this.handleSubmit}>
                     <FormInput
                         type="text"
-                        name="displayName"
-                        value={displayName}
+                        name="name"
+                        value={name}
                         onChange={this.handleChange}
                         label="Numele ce va fi afisat"
                         required
@@ -132,8 +186,8 @@ class SignUp extends React.Component{
                     />
                     <FormInput
                         type="password"
-                        name="confirmPassword"
-                        value={confirmPassowrd}
+                        name="password2"
+                        value={password2}
                         onChange={this.handleChange}
                         label="Confirma parola"
                         required
@@ -147,4 +201,4 @@ class SignUp extends React.Component{
     }
 }
 
-export default SignUp;
+export default withRouter(SignUp);

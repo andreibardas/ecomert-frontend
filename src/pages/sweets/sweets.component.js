@@ -14,7 +14,6 @@ import "./sweets.styles.scss";
 
 
 
-
 class Sweets extends React.Component{
     constructor(props) {
         super(props);
@@ -22,9 +21,13 @@ class Sweets extends React.Component{
         this.state = {
             // collections: SHOP_DATA,
             products: [],
-            loading: false
+            quantity: [],
+            currentUserId: '',
+            token: '',
+            currentCartId: ''
         };
     }
+
 
     componentDidMount(){
         this.setState({ loading: true })
@@ -35,11 +38,106 @@ class Sweets extends React.Component{
                 this.setState({loading: false});
             })
             .catch(err => {console.log(err)})
+        this.setState({token: localStorage.getItem('access_token')}) 
+        
+        // Get current user id
+        axios.get('/api/users/current', {  
+            headers: {
+            'Authorization': localStorage.getItem('access_token')
+          }
+        })
+            .then(res => {
+                this.setState({currentUserId: res.data.id})
+                localStorage.setItem('currentUserId', res.data.id);
+            })
+            .catch(err => { console.log(err) })
+
+
+        // Get current cart id
+        axios.get('/api/cart')
+            .then(res => {
+               res.data.map(element => {
+
+                   console.log(element.userId);
+                   console.log(localStorage.getItem('currentUserId'));
+
+                   if(element.userId === localStorage.getItem('currentUserId')){
+                       this.setState({ currentCartId: element._id });
+                       console.log(this.state.currentCartId);
+                   }
+               });
+            })
+            .catch(err => { console.log(err) })
+
     }
+
+    
+
+
+
+
+    //add to cart button functionality
+    addToCart = (index) => {
+        // event.preventDefault();
+
+/*
+        axios.get('/api/cart/')
+        .then(res => {
+            this.setState({ cart: res.data });
+            this.state.products.map(product => console.log(product));
+            this.setState({loading: false});
+        })
+        .catch(err => {console.log(err)})
+    
+*/
+
+
+
+
+
+        // Get Current user cart and quantity of the products 
+
+
+
+
+
+
+    
+        // Add a product to cart and if products exists already, quantity = quantity + 1
+       axios.post('/api/cart/cart',
+        {
+        productId: this.state.products[index]._id,
+        quantity: 1,
+        name: this.state.products[index].name,
+        price: this.state.products[index].price
+        },
+      {
+          headers: {'Authorization': this.state.token}
+      })
+      .then(response => {
+
+        console.log(response);
+        
+      })
+      .catch(err => {
+          console.log(err);
+      })
+
+      // this.setState({token: this.myToken});
+
+    };
+
+
+
+
+
+
+
 
     render(){
                 // const {collections} = this.state.collections;
                 return (
+
                     this.state.loading 
                     
                     ? 
@@ -55,7 +153,7 @@ class Sweets extends React.Component{
                         <h1 className="page-title">Dulciuri</h1>
                 <div className="shop-page">
                     {
-                    this.state.products.map(product => 
+                    this.state.products.map((product, index) => 
                         <div style={{marginTop: "100px"}}>
                         
                         <div className="collection-item">
@@ -74,7 +172,7 @@ class Sweets extends React.Component{
                             <span className="name">{product.name}</span>
                             <span className="price">{product.price} lei</span>
                         </div>
-                        <CustomButton>ADAUGA IN COS</CustomButton>
+                        <CustomButton onClick={() => this.addToCart(index)}>ADAUGA IN COS</CustomButton>
                         </div>
 
 

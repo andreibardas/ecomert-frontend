@@ -8,8 +8,45 @@ import firebase from "firebase";
 import CartIcon from "../cart-icon/cart-icon.component";
 import "../../assets/bx-cart.svg";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
+import { withRouter } from "react-router-dom";
+import { toggleCartHidden } from "../../redux/cart/cart.actions";
 
-const Header = ({currentUser, hidden})=>(
+class Header extends React.Component{
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            currentUser: false,
+            hidden: true,
+            token: null
+        };
+
+    }
+
+    /*
+    handleChange = event => {
+        
+
+        this.setState({hidden: !this.state.hidden});
+        console.error(this.state.hidden);
+        console.error(this.state.hidden);
+        console.error(this.state.hidden);
+        console.error(this.state.hidden);
+    };
+*/
+
+
+componentDidMount(){
+    this.setState({token: localStorage.getItem('access_token')})
+}
+
+
+
+    render() {
+        const { hidden } = this.state
+        return(
+
     <div className="header">
         <Link className="logo-container" to="/">
             <span className="home-heart">
@@ -29,27 +66,39 @@ const Header = ({currentUser, hidden})=>(
                 {/*<i className="fas fa-shopping-basket fa-2x"></i>*/}
             {/*</Link>*/}
 
-
             {
-                currentUser ?
+                this.state.token !== null ?
                     (
-                        <Link to="/signin"><div className="option" ><box-icon name='log-out' size="lg"></box-icon></div></Link>
+                        <div onClick={()=> localStorage.clear(), ()=> this.setState({ token: null })}><Link to="/signin"><div className="option" ><box-icon name='log-out' size="lg"></box-icon></div></Link></div>
                     ):(
                         <Link to="/signin"><div className="option" ><box-icon name='log-in' size="lg"></box-icon></div></Link>
                         )
+                
             }
-            <CartIcon/>
+
+            <div onClick={() => this.setState({ hidden: !this.state.hidden })}>
+            <CartIcon />
+            </div>
             {/*<Link className="option" to="/signin">
                 CONT
             </Link>*/}
         </div>
-        {hidden? null : <CartDropdown/>}
+        {this.state.hidden === false ? <CartDropdown/> : null}
     </div>
-);
 
+        )
+    }
+}
+    
+
+
+
+/*
 const mapStateToProps = ({user: {currentUser}, cart: {hidden}}) => ({
     currentUser,
     hidden
 });
+*/
 
-export default connect(mapStateToProps)(Header);
+
+export default withRouter(Header);

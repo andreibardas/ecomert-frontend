@@ -6,9 +6,10 @@ import "./sign-in.styles.scss";
 import CustomButton from "../custom-button/custom-button.component";
 import {auth, signInWithGoogle} from "../../firebase/firebase.utils";
 import {Link, Redirect} from "react-router-dom";
-import { withRouter } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom";
 
 class SignIn extends React.Component{
+    myToken = "";
 
     constructor(props) {
         super(props);
@@ -16,53 +17,54 @@ class SignIn extends React.Component{
         this.state = {
             email: "",
             password: "",
-            loggedIn: null
+            loggedIn: null,
+            token: "",
         };
 
     }
+
 
     handleSubmit = async event => {
         event.preventDefault();
 
 
-        /*
-        const {email, password} = this.state;
-
-        try{
-            await auth.signInWithEmailAndPassword(email, password);
-            this.setState({email: "", password:""})
-        }
-        catch (error) {
-            console.log(error);
-        }
-
-        this.setState({email: "", password: ""});
-
-        */
-
+        
        axios.post('/api/users/login', {
         email: this.state.email,
         password: this.state.password
       })
       .then(response => {
         
-        response.data.success === true ? this.setState({ loggedIn: true }) : this.setState({ loggedIn: false });
-        this.setState({loggedIn: response.data.success});
+        response.data.success === true ? this.setState({ loggedIn: true, token: response.data.token }) : this.setState({ loggedIn: false });
+        this.setState({loggedIn: response.data.success, token: response.data.token});
         this.state.loggedIn === true ? this.props.history.push('/sweets') : console.log("loggedin: " + this.state.loggedIn);
+        console.error(this.state.token);
+        localStorage.setItem('access_token', response.data.token);
+        console.log(localStorage.getItem('access_token'));
+        window.location.reload(false);
         
       })
       .catch(err => {
           console.log(err);
       })
 
+      // this.setState({token: this.myToken});
+      
 
     };
+
+
+
 
     handleChange = event => {
         const {value, name} = event.target;
 
         this.setState({[name]: value});
     };
+
+
+
+
 
     render() {
 
