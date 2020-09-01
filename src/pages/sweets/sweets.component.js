@@ -59,11 +59,13 @@ class Sweets extends React.Component{
                res.data.map(element => {
 
                    console.log(element.userId);
-                   console.log(localStorage.getItem('currentUserId'));
+                   console.log("current user id (local storage)" +localStorage.getItem('currentUserId'));
 
                    if(element.userId === localStorage.getItem('currentUserId')){
                        this.setState({ currentCartId: element._id });
-                       console.log(this.state.currentCartId);
+                       console.log("current cart id (state)" +this.state.currentCartId);
+                       localStorage.setItem('currentCartId', element._id);
+                       console.log("current cart id (local storage)" +localStorage.getItem('currentCartId'));
                    }
                });
             })
@@ -72,7 +74,6 @@ class Sweets extends React.Component{
     }
 
     
-
 
 
 
@@ -96,7 +97,7 @@ class Sweets extends React.Component{
 
 
         // Get Current user cart and quantity of the products 
-
+        
 
 
 
