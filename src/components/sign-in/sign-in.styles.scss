@@ -41,7 +41,7 @@
     align-items: center;
     justify-content: center;
     padding-left: 15vw;
-    font-size: 14px;
+    font-size: 12px;
 
     .title{
       //margin: 10px 0px;
@@ -53,6 +53,7 @@
     .buttons{
       display: flex;
       flex-direction: column;
+      width: 75vw;
 
 
       .spacing{

@@ -26,13 +26,14 @@
   @media screen and (max-width: 800px){
 
     .custom-button {
-      // min-width: 160px;
-      width: 10px;
+      text-align: center;
+      min-width: 75%;
+      // width: 10px;
       height: 60px;
       letter-spacing: 0.5px;
       line-height: 20px;
       padding: 0 35px 0 35px;
-      font-size: 15px;
+      font-size: 10px;
       background-color: black;
       color: white;
       text-transform: uppercase;
