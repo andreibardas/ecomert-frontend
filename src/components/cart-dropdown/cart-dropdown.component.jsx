@@ -31,8 +31,8 @@ class CartDropdown extends React.Component {
                 // Get current cart by id
                 axios.get('/api/cart/' + localStorage.getItem('currentCartId'))
                     .then(res => {
-                        this.setState({ cartProducts: res.data });
-                        this.state.cartProducts.map(product => console.log(product));
+                        this.setState({ cartProducts: res.data.products });
+                        this.state.cartProducts.map(product => console.log(product.name));
                     })
                     .catch(err => { console.log(err) });
     }
@@ -42,34 +42,36 @@ class CartDropdown extends React.Component {
             <div className='cart-dropdown'>
                 <div className='cart-items'>
                     <h1>produs</h1>
-                    {
-                    this.state.cartProducts.map((product, index) => 
-                        <div style={{marginTop: "100px"}}>
-                        
-                        <div className="collection-item">
-                        <div
-                            className="image"
-                            style={{
-                                backgroundImage: `url(${product.photo})`
-                            }}
-                        />
-                        <div className="description">
-                            <p className="description-text">
-                                <strong>Descriere:</strong> <br/><br/>{product.description}
-                            </p>
-                        </div>
-                        <div className="collection-footer">
-                            <span className="name">{product.name}</span>
-                            <span className="price">{product.price} lei</span>
-                        </div>
-                        <CustomButton onClick={() => this.addToCart(index)}>ADAUGA IN COS</CustomButton>
-                        </div>
+                    {this.state.cartProducts.map(product => <p>{product.name}</p>)}
+
+                    {/*{*/}
+                    {/*this.state.cartProducts.map((product, index) =>*/}
+                    {/*    <div style={{marginTop: "100px"}}>*/}
+
+                    {/*    <div className="collection-item">*/}
+                    {/*    <div*/}
+                    {/*        className="image"*/}
+                    {/*        style={{*/}
+                    {/*            backgroundImage: `url(${product.photo})`*/}
+                    {/*        }}*/}
+                    {/*    />*/}
+                    {/*    <div className="description">*/}
+                    {/*        <p className="description-text">*/}
+                    {/*            <strong>Descriere:</strong> <br/><br/>{product.description}*/}
+                    {/*        </p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="collection-footer">*/}
+                    {/*        <span className="name">{product.name}</span>*/}
+                    {/*        <span className="price">{product.price} lei</span>*/}
+                    {/*    </div>*/}
+                    {/*    <CustomButton onClick={() => this.addToCart(index)}>ADAUGA IN COS</CustomButton>*/}
+                    {/*    </div>*/}
 
 
-                        </div>
-                        )    
+                    {/*    </div>*/}
+                    {/*    )*/}
                     
-                    }
+                    {/*}*/}
 
                 </div>
                 <CustomButton>FINALIZEAZA CUMPARATURILE</CustomButton>
