@@ -32,7 +32,7 @@ class CartDropdown extends React.Component {
                 axios.get('/api/cart/' + localStorage.getItem('currentCartId'))
                     .then(res => {
                         this.setState({ cartProducts: res.data.products });
-                        this.state.cartProducts.map(product => console.log(product.name));
+                        this.state.cartProducts.map(product => console.log(product));
                     })
                     .catch(err => { console.log(err) });
     }
@@ -41,8 +41,13 @@ class CartDropdown extends React.Component {
         return(
             <div className='cart-dropdown'>
                 <div className='cart-items'>
-                    <h1>produs</h1>
-                    {this.state.cartProducts.map(product => <p>{product.name}</p>)}
+                    <h1>Cosul meu</h1>
+                    {this.state.cartProducts.map(product =>
+                        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
+                        <p>{product.name} ({product.quantity})</p>
+                        <p>{product.price}</p>
+                        </div>
+                    )}
 
                     {/*{*/}
                     {/*this.state.cartProducts.map((product, index) =>*/}

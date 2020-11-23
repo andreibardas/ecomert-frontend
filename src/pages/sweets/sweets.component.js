@@ -12,6 +12,11 @@ import Spinner from "../../components/spinner/spinner.component";
 import "./sweets.styles.scss";
 
 
+let counts = {};
+
+function getOccurrence(array, value) {
+    return array.filter((v) => (v === value)).length;
+}
 
 
 class Sweets extends React.Component{
@@ -34,7 +39,11 @@ class Sweets extends React.Component{
         axios.get('/api/products')
             .then(res => {
                 this.setState({ products: res.data });
-                this.state.products.map(product => console.log(product));
+                this.state.products.map(product =>
+                    this.setState(prevState => ({
+                        quantity: [...prevState.quantity, 0]
+                    }))
+                );
                 this.setState({loading: false});
             })
             .catch(err => {console.log(err)})
@@ -102,13 +111,13 @@ class Sweets extends React.Component{
 
 
 
-
     
         // Add a product to cart and if products exists already, quantity = quantity + 1
+        // TODO revazut problema cu update on unmount component si update la quantity by default poti schimba quantity cu orice numar
        axios.post('/api/cart/cart',
         {
         productId: this.state.products[index]._id,
-        quantity: 1,
+        quantity: this.state.quantity[index] + 1,
         name: this.state.products[index].name,
         price: this.state.products[index].price
         },
@@ -118,7 +127,8 @@ class Sweets extends React.Component{
       .then(response => {
 
         console.log(response);
-        
+        console.log(this.state.products[index].quantity);
+
       })
       .catch(err => {
           console.log(err);
